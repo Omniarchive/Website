@@ -1,2 +1,110 @@
-Hello World
-Test
+<html>
+
+<head>
+    <title>Home | Omniarchive</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#a51919">
+
+    <meta property="og:site_name" content="omniarchive.net" />
+    <meta property="og:title" content="Omniarchive" />
+    <meta property="og:description" content="Omniarchive is the biggest archive of Minecraft versions." />
+    <meta property="og:url" content="omniarchive.net" />
+    <meta property="og:image" content="/logo.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:300,400,900" rel="stylesheet" />
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/js/jquery.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+
+<body>
+    <div class="topbar" align="center" style="animation: opacity 1s 1s forwards; opacity: 0" align="center">
+        <div id="menumask" onclick="closesidebar();" ontouchstart="closesidebar();"></div>
+        <div class="inner" align="left">
+            <svg onclick="opensidebar();" class="mobilemenu" viewBox="0 0 24 24">
+                <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg>
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            <ul class="menu">
+                <li>
+                    <a class=" a" href="">Home</a>
+                </li>
+                <li>
+                    <a class="" href="/about-us/">About us</a>
+                </li>
+                <li>
+                    <a class="" href="/faq/">FAQ</a>
+                </li>
+                <li>
+                    <a class="" href="/downloads/">Downloads</a>
+                </li>
+                <li>
+                    <a class="" href="/discord/">Discord</a>
+                </li>
+                <li>
+                    <a class="" href="/index/">Index</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="backgroundimg"></div>
+
+    <center>
+        <div class="header content outer" align="center" style="height: 100%; max-height: 700px">
+            <div class="middle inner">
+                <img src="/logo.png"
+                    style="max-width: 280px; margin-bottom: 20px; animation: topfall 1s forwards; opacity: 0">
+                <h1 class="size5" style="animation: topfall 1s .5s forwards; opacity: 0; font-weight: 400">
+                    <span style="font-weight: 700">Omniarchive</span> is the biggest archive of Minecraft versions.
+                </h1>
+                <div class="bottomcenter">
+                    <svg class="headerscrollbutton" style="animation: topdown 1s 1s infinite; opacity: 0;"
+                        onclick="scrolltopage();" viewBox="0 0 24 24">
+                        <path
+                            d="M16.59,5.59L18,7L12,13L6,7L7.41,5.59L12,10.17L16.59,5.59M16.59,11.59L18,13L12,19L6,13L7.41,11.59L12,16.17L16.59,11.59Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content bwhite" align="center" id=firsttextblock
+            style="background: rgb(61, 61, 61); color: rgb(255, 255, 255)">
+            <div class="inner">
+
+                <div class="row">
+                    <div class="col s12 m4" style="float: right" align="right">
+                        <img style="max-width: 100%; width: 192px" src="./block.png">
+                    </div>
+                    <div class="col s12 m8" align="left">
+                        <h1 class="size3">Since 2017 Omniarchive has been finding and archiving Minecraft versions,
+                            including long lost versions from the early history of Java edition. To read more about our
+                            history, check out the about us section. Check out the downloads section for links to our
+                            archive.</h1>
+                            <div class="size5">Join us now and help us preserve the past of Minecraft.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content footer" align="center">
+            <div class="dark">
+                <div class="inner" align="left">
+                    <div class="row">
+                        <div class="col s12 m6" style="text-align: left">
+                            &copy; <b>Omniarchive</b></div><b>Made by DEJVOSS</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <script src="/js/omegasvg.js"></script>
+    <script src="/js/materialize.js"></script>
+</body>
+
+</html>
