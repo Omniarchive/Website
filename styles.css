@@ -140,7 +140,7 @@ h1 {font-weight: 700}
 }
 
 
-.backgroundimg {background-image: url("bcg2.png"); opacity: .5;} /* Sets background image */
+.backgroundimg {background-image: url("bcg2.webp"); opacity: .5;} /* Sets background image */
 .topbar .logo {background-image: url("logo.png");} /* Sets logo image */
 .header {filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5))}
 .topbar.small .logo {background-image: url("logo.png");} /* Sets logo */
