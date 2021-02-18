@@ -34,7 +34,7 @@ body {margin: 0; font-family: 'Catamaran'; color: #fff; background: rgb(20,20,25
 #animatedlogo * {transition: fill .3s; fill: transparent; stroke: #fff}
 #animatedlogo.full * {fill: #fff;}
 
-.backgroundimg { z-index: -10; top: -5%; left: -5%; position: fixed; width: 110%; height: 110%; opacity: .2; background-size: cover; background-position: center;}
+.backgroundimg {top: -5%; left: -5%; position: fixed; width: 110%; height: 110%; opacity: .2; background-size: cover; background-position: center;}
 
 .semiopacity {opacity: .5}
 .underlined {border-bottom: 1px solid #fff; display: inline-block; padding-bottom: 3px}
@@ -170,3 +170,5 @@ a {color: #f44336}
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {background-color: #f44336;}
 
 [type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {border: 2px solid #f44336;}
+
+code {font-size:0.9em; background-color: #0003;}
