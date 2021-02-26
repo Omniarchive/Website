@@ -8,7 +8,7 @@ body {margin: 0; font-family: 'Catamaran'; color: #fff; background: rgb(20,20,25
 
 .topbar .menu {position: static; float: right;}
 
-.topbar .mobilemenu {margin-top: 10px; display: none; transition: margin .1s; fill: rgb(85, 85, 85); width: 24px; padding: 15px; height: 24px; position: absolute; top: 0px; left: 0px;}
+.topbar .mobilemenu {margin-top: 10px; display: none; transition: margin .1s; fill: rgb(255, 255, 255); width: 24px; padding: 15px; height: 24px; position: absolute; top: 0px; left: 0px;}
 
 .topbar .inner {width: 87%; max-width: 1300px}
 .topbar .logo {text-align: center; font-size: 23px; font-weight: 900; color: #fff; margin: 11px 0; box-sizing: content-box; float: left; width: 60px; height: 38px; background-position: center center; background-size: contain; background-repeat: no-repeat}
@@ -116,7 +116,7 @@ h1 {font-weight: 700}
     .footer .dark .col {text-align: center !important;}
     .topbar .logo {width: auto; float: none;}
     .topbar .mobilemenu {display: block;}
-    .topbar .menu {z-index: 99; transition: all .2s; background: #fff; position: fixed; left: -300px; top: 0; width: 300px; height: 100%;}
+    .topbar .menu {z-index: 99; transition: all .2s; background: rgb(39, 39, 39); position: fixed; left: -300px; top: 0; width: 300px; height: 100%;}
     .topbar .menu.open {left: 0px;}
     .topbar .menu ul {opacity: 1; pointer-events: all; position: static}
     .topbar .menu li {display: block;}
@@ -129,7 +129,7 @@ h1 {font-weight: 700}
     .topbar .menu ul {overflow: hidden; box-shadow: none; border-radius: 0px;}
     #menumask {z-index: 90; transition: opacity .3s; pointer-events: none; opacity: 0; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(0,0,0,.5)}
     #menumask.open {pointer-events: all; opacity: 1;}
-    .topbar .menu li .a {background: rgba(235, 30, 30, 0.1) !important;}
+    .topbar .menu li .a {background: rgba(128, 128, 128, 0.1) !important;}
     .topbar .menu li .mdi {position: absolute; top: 8px; left: 15px; font-size: 25px}
     .topbar .menu li a {padding-left: 50px}
 }
@@ -152,23 +152,11 @@ h1 {font-weight: 700}
 
 a {color: #ffffff}
 
-.vid {border-radius: 10px; overflow: hidden; transition: all .2s; top: 0px; margin: 12px; display: inline-block; box-shadow: 0px 0px 20px 0px rgba(0,0,0,.5); max-width: 300px; width: 100%; height: 287px; background-size: 100%; background-position: top; position: relative;}
-.vid:hover {cursor: pointer; box-shadow: 0px 5px 20px 4px #a51919aa; top: -5px}
-
-.vid div {transition: all .2s; width: 100%; position: absolute; bottom: 0px; left: 0px; background: #370808; padding: 10px; color: #fff}
-.vid:hover div {background: #000000; color: #fff}
-
 .footer .dark {background: #000000;}
-
-#div_player {transition: all .1s; box-shadow: 0px 0px 10px 0px #000;}
-#div_player:hover {box-shadow: 0px 0px 10px 4px #000000;}
 
 .card.special:hover {top: 0px;}
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {color: #f44336}
 
-[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:after {background-color: #f44336;}
-
-[type="radio"]:checked+span:after, [type="radio"].with-gap:checked+span:before, [type="radio"].with-gap:checked+span:after {border: 2px solid #f44336;}
 
 code {font-size:0.9em; background-color: #0003;}
