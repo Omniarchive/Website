@@ -141,6 +141,7 @@ h1 {font-weight: 700}
 
 
 .backgroundimg {background-image: url("packground.png"); opacity: .5;} /* Sets background image */
+.backgroundimgbtm {background-image: url(""); opacity: .5;}
 .topbar .logo {background-image: url("logo.png");} /* Sets logo image */
 .header {filter: drop-shadow(0px 0px 10px rgba(0,0,0,.5))}
 .topbar.small .logo {background-image: url("logo.png");} /* Sets logo */
@@ -150,9 +151,9 @@ h1 {font-weight: 700}
     .topbar .menu li .a {color: #ffffff; fill: #ffffff; box-shadow: inset 3px 0px 0px 0px #ffffff}
 }
 
-a {color: #ffa600}
+a {color: #478dff}
 
-.footer .dark {background: #000000;}
+.footer .dark {background: rgba(0, 0, 0, 0.8);}
 
 .card.special:hover {top: 0px;}
 
