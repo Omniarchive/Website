@@ -161,3 +161,20 @@ a {color: #478dff}
 
 
 code {font-size:0.9em; background-color: #0003;}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
