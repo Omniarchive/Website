@@ -2,13 +2,13 @@ body {
     margin: 0;
     font-family: 'Noto Sans JP';
     color: #fff;
-    background: rgba(29, 29, 29)
+    background: rgb(63, 63, 63)
 }
 
 #versionholder {
     border-radius: 15px;
     padding: 20px;
-    background: rgb(65, 65, 65);
+    background: rgb(119, 119, 119);
 }
 
 .buttondownload {
@@ -20,4 +20,21 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

@@ -199,4 +199,5 @@ code {font-size:0.9em; background-color: #0003;}
 iframe {
     border-radius: 15px;
     padding: 20px;
+    border: 0px solid rgb(0, 0, 0);
 }
