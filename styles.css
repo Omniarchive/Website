@@ -178,3 +178,25 @@ code {font-size:0.9em; background-color: #0003;}
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
+#contentholder {
+    border-radius: 15px;
+    padding: 20px;
+    background: rgb(32, 32, 32);
+}
+
+.buttoncustom {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+iframe {
+    border-radius: 15px;
+    padding: 20px;
+}
