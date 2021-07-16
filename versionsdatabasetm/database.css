@@ -23,16 +23,16 @@ body {
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 0px;
 }
   
   ::-webkit-scrollbar-track {
-    border-radius: 10px;
+    border-radius: 0px;
 }
    
   ::-webkit-scrollbar-thumb {
     background: #888;
-    border-radius: 10px;
+    border-radius: 0px;
 }
   
   ::-webkit-scrollbar-thumb:hover {
