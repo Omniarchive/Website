@@ -1,11 +1,11 @@
 <html>
 
 <head>
-    <title>{{ title }} | Omniarchive</title>
+    <title>{{ page.title }} | Omniarchive</title>
 
-    <meta property="og:title" content="Omniarchive - {{ title }}" />
-    {% if description %}
-    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:title" content="Omniarchive - {{ page.title }}" />
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
     {% else %}
     <meta property="og:description" content="Omniarchive is the biggest archive of Minecraft versions." />
     {% endif %}
@@ -65,12 +65,12 @@
                 {% if heading %}
                 {{ heading }}
                 {% else %}
-                <h1 class="size1">{{ title }}</h1>
+                <h1 class="size1">{{ page.title }}</h1>
                 {% endif %}
             </div>
         </div>
 
-        <div class="content bwhite" id="firsttextblock"
+        <div class="content bwhite"
             style="background: rgb(61, 61, 61, 0.5); color: rgb(255, 255, 255)">
             <div class="inner">
                 <div class="col s12 m8">
@@ -86,10 +86,9 @@
         <div class="dark">
             <div class="inner">
                 <div class="row">
-                    <div class="col s12 m6" style="text-align: center">
-                        &copy; 2021 <b>Omniarchive</b>
-                    </div>
-                    <b>Designed by <a href="https://dejvoss.cz">DEJVOSS</a></b>
+                        <div class="col s12 m6" style="text-align: center">
+                            &copy; 2021 <b>Omniarchive | Designed by <a href="https://dejvoss.cz">DEJVOSS</a></b>
+                        </div>
                 </div>
             </div>
         </div>

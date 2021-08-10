@@ -328,19 +328,9 @@ svg {
 .footer .row {
   margin: 0;
 }
-.footer .light a {
-  color: #fff;
-}
-.footer .light {
-  line-height: 150%;
-  background: #062350;
-  color: #fff;
-  padding: 30px 0px;
-}
-.footer .light .col {
-  float: right;
-}
+
 .footer .dark {
+  text-align: center;
   line-height: 150%;
   background: #041530;
   color: #fff;
