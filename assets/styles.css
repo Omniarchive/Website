@@ -152,6 +152,85 @@ body {
   background-position: center;
 }
 
+.semiopacity {
+  opacity: 0.5;
+}
+.underlined {
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+.biggerlines {
+  line-height: 150%;
+}
+.biggerlines2 {
+  line-height: 200%;
+}
+
+.bottomcenter {
+  position: absolute;
+  left: 0%;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.headerscrollbutton {
+  transition: all 0.3s;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  margin: 10px;
+  fill: #fff;
+  border-radius: 100%;
+}
+.headerscrollbutton:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+svg {
+  box-sizing: content-box;
+}
+
+.socialicon {
+  transition: all 0.3s;
+  border-radius: 50%;
+  text-align: center;
+  box-sizing: content-box;
+  background: rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+.socialicon.big {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+.socialicon:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.thd {
+  color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.thd.padding {
+  margin-bottom: 9px;
+}
+
 .content {
   position: relative;
 }
@@ -197,13 +276,24 @@ body {
 
 /* stupid css */
 
-.footer .inner {padding-top: 5px; font-size: 17px}
-.footer .row {margin: 0;}
-.footer .light a {color: #fff;}
-.footer .light {line-height: 150%; background: #062350; color: #fff; padding: 30px 0px}
-.footer .light .col {float: right}
-.footer .dark {line-height: 150%; background: #041530; color: #fff; padding: 30px 0px}
-.footer a {text-decoration: none;}
+.footer .inner {
+  padding-top: 5px;
+  font-size: 17px;
+}
+.footer .row {
+  margin: 0;
+}
+
+.footer .dark {
+  text-align: center;
+  line-height: 150%;
+  background: #041530;
+  color: #fff;
+  padding: unset;
+}
+.footer a {
+  text-decoration: none;
+}
 
 .outer {
   position: relative;
@@ -244,8 +334,53 @@ h1 {
   margin: 3px 0px;
 }
 
+.pdn {
+  position: relative;
+  display: block;
+}
+
+@keyframes topfall {
+  0% {
+    opacity: 0;
+    top: -30px;
+    position: relative;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
+    position: relative;
+  }
+}
+
+@keyframes topdown {
+  0% {
+    top: -20px;
+    position: relative;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    position: relative;
+  }
+}
+
+@keyframes opacity {
+  0% {
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media only screen and (max-width: 601px) {
-  .footer .dark .col {text-align: center !important;}
+  .footer .dark .col {
+    text-align: center !important;
+  }
   .topbar .logo {
     width: auto;
     float: none;
@@ -350,7 +485,10 @@ h1 {
   background-image: url("packground.webp");
   opacity: 0.5;
 } /* Sets background image */
-
+.backgroundimgbtm {
+  background-image: url("");
+  opacity: 0.5;
+}
 .topbar .logo {
   background-image: url("logo.png");
 } /* Sets logo image */
@@ -361,7 +499,7 @@ h1 {
   background-image: url("logo.png");
 } /* Sets logo */
 .topbar .menu > li > a:after {
-  background: #ffffff;
+  background: #000000;
 } /* Sets color of the little shit under topbar */
 
 @media only screen and (max-width: 601px) {
@@ -376,7 +514,19 @@ a {
   color: #478dff;
 }
 
-.footer .dark {background: rgba(0, 0, 0, 0.5);}
+.footer .dark {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card.special:hover {
+  top: 0px;
+}
+
+.card
+  .card-action
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #f44336;
+}
 
 code {
   font-size: 0.9em;
@@ -409,7 +559,7 @@ code {
 .buttoncustom {
   border-radius: 15px;
   padding: 10px;
-  background-color: #34bd6d;
+  background-color: #5e5e5e;
   color: white;
   text-align: center;
   text-decoration: none;
