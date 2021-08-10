@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>{{ title }} | Omniarchive</title>
+
+    <meta property="og:title" content="Omniarchive - {{ title }}" />
+    {% if description %}
+    <meta property="og:description" content="{{ description }}" />
+    {% else %}
+    <meta property="og:description" content="Omniarchive is the biggest archive of Minecraft versions." />
+    {% endif %}
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#a51919">
+
+    <meta property="og:site_name" content="omniarchive.net" />
+    <meta property="og:url" content="omniarchive.net" />
+    <meta property="og:image" content="/assets/logo.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <link type="text/css" rel="stylesheet" href="/assets/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <script src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</head>
+
+<body style="text-align: center; text-align: -webkit-center;">
+    <div class="topbar">
+        <div id="menumask" onclick="closesidebar();" ontouchstart="closesidebar();"></div>
+        <div class="inner" style="text-align: left;">
+            <svg onclick="opensidebar();" class="mobilemenu" viewbox="0 0 24 24">
+                <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg>
+            <a href="/">
+                <div class="logo"></div>
+            </a>
+            <ul class="menu">
+                <li>
+                    <a class="" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="" href="/about">About</a>
+                </li>
+                <li>
+                    <a class="" href="/faq">FAQ</a>
+                </li>
+                <li>
+                    <a class="" href="/downloads">Downloads</a>
+                </li>
+                <li>
+                    <a class="" href="/discord">Discord</a>
+                </li>
+                <li>
+                    <a class="" href="/sheet">Index</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="backgroundimg"></div>
+
+    <main>
+        <div class="header content outer" style="text-align: center; height: 100%; max-height: 500px">
+            <div class="middle inner">
+                {% if heading %}
+                {{ heading }}
+                {% else %}
+                <h1 class="size1">{{ title }}</h1>
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="content bwhite" id="firsttextblock"
+            style="background: rgb(61, 61, 61, 0.5); color: rgb(255, 255, 255)">
+            <div class="inner">
+                <div class="col s12 m8">
+
+                    {{ content }}
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="content footer" style="text-align: center;">
+        <div class="dark">
+            <div class="inner">
+                <div class="row">
+                    <div class="col s12 m6" style="text-align: center">
+                        &copy; 2021 <b>Omniarchive</b>
+                    </div>
+                    <b>Designed by <a href="https://dejvoss.cz">DEJVOSS</a></b>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/assets/js/materialize.js"></script>
+</body>
+
+</html>
