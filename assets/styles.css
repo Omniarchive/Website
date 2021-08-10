@@ -141,20 +141,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-#animatedlogo {
-  max-width: 230px;
-  width: 100%;
-  stroke-width: 40;
-}
-#animatedlogo * {
-  transition: fill 0.3s;
-  fill: transparent;
-  stroke: #fff;
-}
-#animatedlogo.full * {
-  fill: #fff;
-}
-
 .backgroundimg {
   top: -5%;
   left: -5%;
@@ -164,111 +150,6 @@ body {
   opacity: 0.2;
   background-size: cover;
   background-position: center;
-}
-
-.semiopacity {
-  opacity: 0.5;
-}
-.underlined {
-  border-bottom: 1px solid #fff;
-  display: inline-block;
-  padding-bottom: 3px;
-}
-.biggerlines {
-  line-height: 150%;
-}
-.biggerlines2 {
-  line-height: 200%;
-}
-
-.bottomcenter {
-  position: absolute;
-  left: 0%;
-  bottom: 0px;
-  width: 100%;
-  text-align: center;
-}
-
-.headerscrollbutton {
-  transition: all 0.3s;
-  width: 35px;
-  height: 35px;
-  padding: 5px;
-  margin: 10px;
-  fill: #fff;
-  border-radius: 100%;
-}
-.headerscrollbutton:hover {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-svg {
-  box-sizing: content-box;
-}
-
-.roundedimg {
-  margin-bottom: 10px;
-  width: 120px;
-  height: 120px;
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 50%;
-}
-.roundedimg.border {
-  padding: 10px;
-  width: 100px;
-  height: 100px;
-}
-
-.heroicon {
-  box-sizing: content-box;
-  font-size: 40px;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  margin: 20px 0;
-  padding: 20px;
-  display: block;
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 50%;
-}
-.socialicon {
-  transition: all 0.3s;
-  border-radius: 50%;
-  text-align: center;
-  box-sizing: content-box;
-  background: rgba(0, 0, 0, 0.05);
-  font-size: 20px;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  padding: 10px;
-  margin: 5px;
-  display: inline-block;
-}
-.socialicon.big {
-  font-size: 30px;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  padding: 10px;
-  margin: 5px;
-  display: inline-block;
-}
-.socialicon:hover {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.thd {
-  color: rgba(255, 255, 255, 0.8);
-  text-transform: uppercase;
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  margin-bottom: 0px;
-}
-.thd.padding {
-  margin-bottom: 9px;
 }
 
 .content {
@@ -292,11 +173,6 @@ svg {
   max-width: 900px;
   padding: 0px 20px;
   padding-top: 20px;
-}
-.content.bwhite {
-  background: #fff;
-  color: #555;
-  padding: 90px 0px;
 }
 
 .card.noborder {
@@ -334,7 +210,7 @@ svg {
   line-height: 150%;
   background: #041530;
   color: #fff;
-  padding: 30px 0px;
+  padding: unset;
 }
 .footer a {
   text-decoration: none;
@@ -377,49 +253,6 @@ h1 {
 .size6 {
   font-size: 19px !important;
   margin: 3px 0px;
-}
-
-.pdn {
-  position: relative;
-  display: block;
-}
-
-@keyframes topfall {
-  0% {
-    opacity: 0;
-    top: -30px;
-    position: relative;
-  }
-  100% {
-    opacity: 1;
-    top: 0px;
-    position: relative;
-  }
-}
-
-@keyframes topdown {
-  0% {
-    top: -20px;
-    position: relative;
-  }
-  30% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    top: 0px;
-    position: relative;
-  }
-}
-
-@keyframes opacity {
-  0% {
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 @media only screen and (max-width: 601px) {
@@ -530,10 +363,7 @@ h1 {
   background-image: url("packground.webp");
   opacity: 0.5;
 } /* Sets background image */
-.backgroundimgbtm {
-  background-image: url("");
-  opacity: 0.5;
-}
+
 .topbar .logo {
   background-image: url("logo.png");
 } /* Sets logo image */
@@ -544,7 +374,7 @@ h1 {
   background-image: url("logo.png");
 } /* Sets logo */
 .topbar .menu > li > a:after {
-  background: #000000;
+  background: #ffffff;
 } /* Sets color of the little shit under topbar */
 
 @media only screen and (max-width: 601px) {
@@ -561,16 +391,6 @@ a {
 
 .footer .dark {
   background: rgba(0, 0, 0, 0.5);
-}
-
-.card.special:hover {
-  top: 0px;
-}
-
-.card
-  .card-action
-  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-  color: #f44336;
 }
 
 code {
@@ -604,7 +424,7 @@ code {
 .buttoncustom {
   border-radius: 15px;
   padding: 10px;
-  background-color: #5e5e5e;
+  background-color: #34bd6d;
   color: white;
   text-align: center;
   text-decoration: none;
