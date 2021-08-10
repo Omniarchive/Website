@@ -197,25 +197,13 @@ body {
 
 /* stupid css */
 
-.footer .inner {
-  padding-top: 5px;
-  font-size: 17px;
-}
-.footer .row {
-  margin: 0;
-}
-.footer .light .col {
-  float: right;
-}
-.footer .dark {
-  line-height: 150%;
-  background: #041530;
-  color: #fff;
-  padding: 30px 0px;
-}
-.footer a {
-  text-decoration: none;
-}
+.footer .inner {padding-top: 5px; font-size: 17px}
+.footer .row {margin: 0;}
+.footer .light a {color: #fff;}
+.footer .light {line-height: 150%; background: #062350; color: #fff; padding: 30px 0px}
+.footer .light .col {float: right}
+.footer .dark {line-height: 150%; background: #041530; color: #fff; padding: 30px 0px}
+.footer a {text-decoration: none;}
 
 .outer {
   position: relative;
@@ -257,9 +245,7 @@ h1 {
 }
 
 @media only screen and (max-width: 601px) {
-  .footer .dark .col {
-    text-align: center !important;
-  }
+  .footer .dark .col {text-align: center !important;}
   .topbar .logo {
     width: auto;
     float: none;
@@ -390,9 +376,7 @@ a {
   color: #478dff;
 }
 
-.footer .dark {
-  background: rgba(0, 0, 0, 0.5);
-}
+.footer .dark {background: rgba(0, 0, 0, 0.5);}
 
 code {
   font-size: 0.9em;
