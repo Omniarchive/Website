@@ -1,44 +1,96 @@
----
-layout: base
----
-<div class="sidenav">
-    <a href="/faq/">FAQ</a>
-    <button class="dropdown-btn">Java Edition
-        <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-container">
-        <button class="dropdown-btn">Playing old versions
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }} | Omniarchive</title>
+
+    <meta property="og:title" content="Omniarchive - {{ page.title }}" />
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+    <meta property="og:description" content="Omniarchive's documentations will help you figure out almost anything about old versions." />
+    {% endif %}
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <meta property="og:site_name" content="omniarchive.net" />
+    <meta property="og:url" content="omniarchive.net" />
+    <meta property="og:image" content="/assets/logo.png" />
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
+    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+
+<body>
+    <div class="sidenav">
+        <a href="/faq/">FAQ</a>
+        <button class="dropdown-btn">Java Edition
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-container">
-            <a href="#">BetaCraft (Recommended)</a>
-            <a href="#">MultiMC</a>
-            <a href="#">MineOnline</a>
-            <a href="#">Mojang's Launcher</a>
+            <button class="dropdown-btn">Playing old versions
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <a href="#">BetaCraft (Recommended)</a>
+                <a href="#">MultiMC</a>
+                <a href="#">MineOnline</a>
+                <a href="#">Mojang's Launcher</a>
+            </div>
+            <a href="#">Installing mods</a>
+            <a href="#">Link 3</a>
         </div>
-        <a href="#">Installing mods</a>
-        <a href="#">Link 3</a>
     </div>
-</div>
+    <div class="backgroundimg"></div>
 
-<div class="docscont">
-    {{ content }}
-</div>
+    <div class="header content outer" style="text-align: center; height: 100%; max-height: 500px">
+        <div class="middle inner">
+            {% if heading %}
+            {{ heading }}
+            {% else %}
+            <h1 class="size1">{{ page.title }}</h1>
+            {% endif %}
+        </div>
+    </div>
 
-<script>
-    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-    var dropdown = document.getElementsByClassName("dropdown-btn");
-    var i;
+    <div class="docscont" style="background: rgb(61, 61, 61, 0.5); color: rgb(255, 255, 255)">
+        <div class="inner">
+            <div class="col s12 m8">
 
-    for (i = 0; i < dropdown.length; i++) {
-        dropdown[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var dropdownContent = this.nextElementSibling;
-            if (dropdownContent.style.display === "block") {
-                dropdownContent.style.display = "none";
-            } else {
-                dropdownContent.style.display = "block";
-            }
-        });
-    }
-</script>
+                {{ content }}
+
+            </div>
+        </div>
+    </div>
+    <div class="content footer">
+        <div class="dark">
+            <div class="inner">
+                <div class="row">
+                    <div class="col s12 m6" style="text-align: center">
+                        &copy; <b>Omniarchive</b></div><b>Designed by <a href="https://dejvoss.cz">DEJVOSS</a></b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
