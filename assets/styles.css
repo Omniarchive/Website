@@ -610,7 +610,7 @@ iframe {
 
       /* Main content */
       .docscont {
-          margin-left: 200px;
+          margin-left: 20%;
           /* Same as the width of the sidenav */
           font-size: 20px;
           /* Increased text to enable scrolling */
