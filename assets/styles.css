@@ -204,13 +204,14 @@ body {
 .footer .row {
   margin: 0;
 }
-
+.footer .light .col {
+  float: right;
+}
 .footer .dark {
-  text-align: center;
   line-height: 150%;
   background: #041530;
   color: #fff;
-  padding: unset;
+  padding: 30px 0px;
 }
 .footer a {
   text-decoration: none;
