@@ -615,6 +615,9 @@ iframe {
           font-size: 20px;
           /* Increased text to enable scrolling */
           padding: 0px 20px;
+          font-family: "Noto Sans JP";
+          color: #fff;
+          background: rgb(20, 20, 25);
       }
 
       /* Add an active class to the active dropdown button */
