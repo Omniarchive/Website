@@ -1,99 +1,223 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>{{ page.title }} | Omniarchive</title>
-
-    <meta property="og:title" content="Omniarchive - {{ page.title }}" />
-    {% if page.description %}
-    <meta property="og:description" content="{{ page.description }}" />
-    {% else %}
-    <meta property="og:description" content="Omniarchive is the biggest archive of Minecraft versions." />
-    {% endif %}
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#a51919">
-
-    <meta property="og:site_name" content="omniarchive.net" />
-    <meta property="og:url" content="omniarchive.net" />
-    <meta property="og:image" content="/assets/logo.png" />
-
+    <title>Test | Omniarchive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
-    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
-    <link type="text/css" rel="stylesheet" href="/assets/materialize.css" media="screen,projection" />
-    <link rel="stylesheet" href="/assets/styles.css" />
-    <script src="/assets/js/jquery.js"></script>
-    <script src="/assets/js/main.js"></script>
 
+    <style>
+        body {
+            color: white;
+            font-family: "Noto Sans JP";
+            background-color: rgb(0, 0, 0);
+            background-image: url("packgroundd.webp");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        /* The navigation bar */
+        .navbar {
+
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        /* Links inside the navbar */
+        .navbar a {
+            margin: 0 auto;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change background on mouse-over */
+        .navbar a:hover {
+            background: #ddd;
+            color: black;
+        }
+
+        .navlogo {
+            margin: 0 auto;
+            width: 40px;
+            height: 40px;
+            background-size: 40px;
+            background-image: url("logo.png");
+        }
+
+        .main {
+            margin-top: 120px;
+            /* Add a top margin to avoid content overlay */
+        }
+
+        a:link {
+            color: rgb(87, 87, 255);
+        }
+
+        a:active {
+            color: rgb(54, 54, 253);
+        }
+
+        a:visited {
+            color: rgb(54, 134, 253);
+        }
+
+        .whitecurved {
+            margin: 0 auto;
+            max-width: 50%;
+            background-color: rgba(49, 49, 49, 0.5);
+            border-radius: 25px;
+        }
+
+        .whitecurved p {
+            padding: 10px 10px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+        }
+    </style>
 </head>
 
-<body style="text-align: center; text-align: -webkit-center;">
-    <div class="topbar">
-        <div id="menumask" onclick="closesidebar();" ontouchstart="closesidebar();"></div>
-        <div class="inner" style="text-align: left;">
-            <svg onclick="opensidebar();" class="mobilemenu" viewbox="0 0 24 24">
-                <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-            </svg>
-            <a href="/">
-                <div class="logo"></div>
-            </a>
-            <ul class="menu">
-                <li>
-                    <a class="" href="/">Home</a>
-                </li>
-                <li>
-                    <a class="" href="/about">About</a>
-                </li>
-                <li>
-                    <a class="" href="/faq">FAQ</a>
-                </li>
-                <li>
-                    <a class="" href="/downloads">Downloads</a>
-                </li>
-                <li>
-                    <a class="" href="/discord">Discord</a>
-                </li>
-                <li>
-                    <a class="" href="/sheet">Index</a>
-                </li>
-            </ul>
+<body>
+    <div class="navbar">
+        <div class="navlogo">
+
+        </div>
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="main">
+        <div class="whitecurved">
+            <h2>WOMniarchive Client Reborn</h2>
+            <p>Sample Text.</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Phasellus faucibus
+                molestie nisl. Fusce aliquam vestibulum ipsum. Nullam justo enim, consectetuer nec, ullamcorper ac,
+                vestibulum
+                in, elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.
+                Fusce aliquam vestibulum ipsum. Mauris metus. Nunc tincidunt ante vitae massa. Mauris tincidunt sem sed
+                arcu.
+                Suspendisse nisl. Phasellus et lorem id felis nonummy placerat. Aliquam id dolor. Maecenas libero. Sed
+                vel
+                lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Donec ipsum massa, ullamcorper in,
+                auctor
+                et, scelerisque sed, est. Aliquam in lorem sit amet leo accumsan lacinia. Neque porro quisquam est, qui
+                dolorem
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+                ut
+                labore et dolore magnam aliquam quaerat voluptatem. Morbi imperdiet, mauris ac auctor dictum, nisl
+                ligula
+                egestas nulla, et sollicitudin sem purus in lacus.</p>
+
+            <p>Duis risus. Nulla non lectus sed nisl molestie malesuada. Sed ut perspiciatis unde omnis iste natus error
+                sit
+                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                veritatis
+                et
+                quasi architecto beatae vitae dicta sunt explicabo. Vestibulum erat nulla, ullamcorper nec, rutrum non,
+                nonummy
+                ac, erat. Aliquam erat volutpat. Etiam neque. Maecenas fermentum, sem in pharetra pellentesque, velit
+                turpis
+                volutpat ante, in pharetra metus odio a lectus. Praesent vitae arcu tempor neque lacinia pretium. Etiam
+                commodo
+                dui eget wisi. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Sed ac dolor sit
+                amet
+                purus
+                malesuada congue. Aliquam erat volutpat. Proin pede metus, vulputate nec, fermentum fringilla, vehicula
+                vitae,
+                justo. Mauris metus. Fusce aliquam vestibulum ipsum. Fusce nibh.</p>
+
+            <p>Etiam dictum tincidunt diam. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Nam libero
+                tempore,
+                cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere
+                possimus,
+                omnis
+                voluptas assumenda est, omnis dolor repellendus. Class aptent taciti sociosqu ad litora torquent per
+                conubia
+                nostra, per inceptos hymenaeos. Vivamus porttitor turpis ac leo. Quisque tincidunt scelerisque libero.
+                Ut
+                enim
+                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Etiam
+                dui
+                sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam quis quam. Morbi leo mi, nonummy eget
+                tristique
+                non, rhoncus non leo. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Mauris tincidunt
+                sem
+                sed
+                arcu. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Aenean placerat. Nullam
+                sapien
+                sem, ornare ac, nonummy non, lobortis a enim. Ut tempus purus at lorem. Mauris elementum mauris vitae
+                tortor.
+                Integer vulputate sem a nibh rutrum consequat. Aenean placerat.</p>
+
+            <p>Pellentesque pretium lectus id turpis. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto
+                beatae
+                vitae dicta sunt explicabo. Mauris metus. Proin mattis lacinia justo. Duis condimentum augue id magna
+                semper
+                rutrum. Quisque tincidunt scelerisque libero. Aliquam ante. Ut enim ad minim veniam, quis nostrud
+                exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Curabitur sagittis hendrerit ante. Vestibulum
+                erat
+                nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Morbi leo mi, nonummy eget tristique non, rhoncus
+                non
+                leo.
+                Integer pellentesque quam vel velit. Nulla pulvinar eleifend sem. Fusce nibh. Fusce tellus. Integer
+                imperdiet
+                lectus quis justo. Praesent vitae arcu tempor neque lacinia pretium. Quisque porta.</p>
+
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam in
+                lorem
+                sit
+                amet leo accumsan lacinia. Nulla quis diam. Phasellus faucibus molestie nisl. Ut enim ad minim veniam,
+                quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Curabitur bibendum justo
+                non
+                orci.
+                Integer malesuada. Fusce nibh. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Cum
+                sociis
+                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sapien. Sed ac
+                dolor
+                sit
+                amet purus malesuada congue. Pellentesque arcu. Proin pede metus, vulputate nec, fermentum fringilla,
+                vehicula
+                vitae, justo. Integer vulputate sem a nibh rutrum consequat. Nam libero tempore, cum soluta nobis est
+                eligendi
+                optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
+                est,
+                omnis
+                dolor repellendus. Cras elementum. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Fusce
+                tellus
+                odio,
+                dapibus id fermentum quis, suscipit id erat.</p>
         </div>
     </div>
-    <div class="backgroundimg"></div>
 
-    <main>
-        <div class="header content outer" style="text-align: center; height: 100%; max-height: 500px">
-            <div class="middle inner">
-                {% if heading %}
-                {{ heading }}
-                {% else %}
-                <h1 class="size1">{{ page.title }}</h1>
-                {% endif %}
-            </div>
-        </div>
+    <div class="footer">
+        <p>&copy <a href="https://dejvoss.cz">DEJVOSS</a> & Omniarchive</p>
+    </div>
 
-        <div class="content bwhite" style="background: rgb(61, 61, 61, 0.5); color: rgb(255, 255, 255)">
-            <div class="inner">
-                <div class="col s12 m8">
-
-                    {{ content }}
-
-                </div>
-            </div>
-        </div>
-    </main>
-
-        <footer class="content footer">
-            <div class="dark">
-                <div class="inner">
-                    <div class="row">
-                        <div class="col s12 m6" style="text-align: center">
-                            &copy; 2021 <b>Omniarchive | Designed by <a href="https://dejvoss.cz">DEJVOSS</a></b>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    <script src="/assets/js/materialize.js"></script>
 </body>
 
 </html>
