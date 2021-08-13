@@ -1,7 +1,3 @@
----
-permalink: /layout/base/
-title: Base
----
 <!DOCTYPE html>
 <html>
 
@@ -17,12 +13,11 @@ title: Base
         <div class="navlogo">
 
         </div>
-        <a href="#">Home</a>
-        <a href="#">News</a>
-        <a href="#">FAQ</a>
-        <a href="#">Downloads</a>
-        <a href="#">Discord</a>
-        <a href="#">Index</a>
+        <a href="/">Home</a>
+        <a href="/faq">FAQ</a>
+        <a href="/downloads">Downloads</a>
+        <a href="/discord">Discord</a>
+        <a href="/sheet">Index</a>
     </div>
 
     <div class="main">
@@ -30,6 +25,7 @@ title: Base
             <h1>{{ page.title }}</h1>
         </div>
         <div class="whitecurved">
+            <img src="/files/logo.png">
             
             {{ content }}
 
