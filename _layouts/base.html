@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }} | Omniarchive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
+    <link rel="stylesheet" href="/files/styles.css">
+    <link rel="shortcut icon" type="image/png" href="/files/logo.png"/>
+
+    <meta property="og:title" content="Omniarchive - {{ page.title }}" />
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    {% else %}
+    <meta property="og:description" content="Omniarchive is the largest archive of Minecraft versions." />
+    {% endif %}
+    <meta property="og:site_name" content="omniarchive.net" />
+    <meta property="og:url" content="omniarchive.net" />
+    <meta property="og:image" content="/files/logo.png" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navlogo">
+
+        </div>
+        <a href="/">Home</a>
+        <a href="/faq">FAQ</a>
+        <a href="/downloads">Downloads</a>
+        <a href="/discord">Discord</a>
+        <a href="/sheet">Index</a>
+    </div>
+
+    <div class="main">
+        <div class="pagetitle">
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="whitecurved">
+            <img src="/files/logo.png">
+
+            {{ content }}
+
+        </div>
+        <div class="bottomline"></div>
+    </div>
+
+    <div class="footer">
+        <p>&copy Omniarchive | Designed by <a href="https://dejvoss.cz">DEJVOSS</a></p>
+    </div>
+
+</body>
+
+</html>
