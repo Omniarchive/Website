@@ -1,174 +1,15 @@
+---
+permalink: /layout/base/
+title: Base
+---
 <!DOCTYPE html>
 <html>
 
 <head>
-    <title>Test | Omniarchive</title>
+    <title>{{ page.title }} | Omniarchive</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
-
-    <style>
-        body {
-            color: white;
-            font-family: "Noto Sans JP";
-            background-color: rgb(0, 0, 0);
-            background-image: url("packgroundd.webp");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            text-align: center;
-        }
-
-        /* The navigation bar */
-        .navbar {
-            display: flex;
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 100%;
-            background-color: rgb(48, 48, 48);
-            color: white;
-            text-align: center;
-            overflow: hidden;
-            z-index: 99;
-        }
-
-        .navbar a:link,
-        .navbar a:active,
-        .navbar a:visited {
-            margin: 0 auto;
-            display: block;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        .navbar a:hover {
-            text-decoration: underline;
-        }
-
-        .navlogo {
-            width: 40px;
-            height: 40px;
-            background-size: 40px;
-            background-image: url("logo.png");
-            margin: auto;
-        }
-
-        .main {
-            margin-top: 80px;
-        }
-
-        a:link,
-        a:active,
-        a:visited {
-            text-decoration: none;
-            color: rgb(54, 134, 253);
-        }
-
-        .pagetitle {
-            text-shadow: 2px 2px #000000;
-        }
-
-        .whitecurved {
-            margin: 0 auto;
-            max-width: 70%;
-            background-color: rgba(49, 49, 49, 0.5);
-            border-radius: 25px;
-            padding: 10px 10px;
-        }
-
-        .bottomline {
-            padding-bottom: 75px;
-        }
-
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: rgb(48, 48, 48);
-            color: white;
-            text-align: center;
-        }
-
-        /* stupid css */
-
-        .wrap {
-            overflow: hidden;
-        }
-        .whitebox {
-            position: relative;
-            margin: 0 auto;
-            display: table;
-            border-radius: 25px;
-            padding: 10px 10px;
-            max-width: 20%;
-            display: inline-block;
-            background-color: rgba(116, 116, 116, 0.63);
-            color: rgb(204, 204, 204);
-        }
-
-        .whitebox+.whitebox {
-            margin-left: 10px;
-            margin-bottom: 10px;
-        }
-
-        .whitebox #title {
-            font-size: 18px;
-            color: white;
-        }
-
-        .whitebox #date {
-            font-size: 10px;
-            color: rgb(0, 0, 0);
-        }
-
-        .whitebox #cont {
-            font-size: 13px;
-            color: rgb(219, 219, 219);
-        }
-
-        .whitebox #end {
-            bottom: 10px;
-            background-color: rgba(255, 255, 255, 0);
-        }
-
-        img {
-            border-radius: 15px;
-            max-width: 100%;
-            max-height: 100%;
-        }
-
-        .whitebox #buttondownload {
-            border-radius: 10px;
-            padding: 10px;
-            background-color: #34bd6d;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 14px;
-        }
-
-        ::-webkit-scrollbar {
-            width: 5px;
-        }
-
-        ::-webkit-scrollbar-track {
-            border-radius: 10px;
-            background-color: rgb(48, 48, 48);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 10px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-    </style>
+    <link rel="stylesheet" href="/files/styles.css">
 </head>
 
 <body>
@@ -186,147 +27,18 @@
 
     <div class="main">
         <div class="pagetitle">
-            <h1>Omniarchive</h1>
+            <h1>{{ page.title }}</h1>
         </div>
         <div class="whitecurved">
-            <img src="logo.png">
-            <p>Sample <a href="#">Text</a>.</p>
+            
+            {{ content }}
 
-            <div class="wrap">
-                <div class="whitebox">
-                    <img src="packground.png">
-                    <div id="title">Sample title.</div>
-                    <div id="date">25th January 2010</div>
-                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        In
-                        dapibus augue non sapien.</div>
-                    <a href="#" id="buttondownload">Download</a>
-                </div>
-
-                <div class="whitebox">
-                    <img src="packground.png">
-                    <div id="title">Sample title.</div>
-                    <div id="date">25th January 2010</div>
-                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        In
-                        dapibus augue non sapien.</div>
-                    <a href="#" id="buttondownload">Download</a>
-                </div>
-            </div>
-
-            <br>
-            <p>
-                We are Omniarchive. Praise The Intra Clinic.
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Phasellus faucibus
-                molestie nisl. Fusce aliquam vestibulum ipsum. Nullam justo enim, consectetuer nec, ullamcorper ac,
-                vestibulum
-                in, elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur.
-                Fusce aliquam vestibulum ipsum. Mauris metus. Nunc tincidunt ante vitae massa. Mauris tincidunt sem sed
-                arcu.
-                Suspendisse nisl. Phasellus et lorem id felis nonummy placerat. Aliquam id dolor. Maecenas libero. Sed
-                vel
-                lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Donec ipsum massa, ullamcorper in,
-                auctor
-                et, scelerisque sed, est. Aliquam in lorem sit amet leo accumsan lacinia. Neque porro quisquam est, qui
-                dolorem
-                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
-                ut
-                labore et dolore magnam aliquam quaerat voluptatem. Morbi imperdiet, mauris ac auctor dictum, nisl
-                ligula
-                egestas nulla, et sollicitudin sem purus in lacus.</p>
-
-            <p>Duis risus. Nulla non lectus sed nisl molestie malesuada. Sed ut perspiciatis unde omnis iste natus error
-                sit
-                voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                veritatis
-                et
-                quasi architecto beatae vitae dicta sunt explicabo. Vestibulum erat nulla, ullamcorper nec, rutrum non,
-                nonummy
-                ac, erat. Aliquam erat volutpat. Etiam neque. Maecenas fermentum, sem in pharetra pellentesque, velit
-                turpis
-                volutpat ante, in pharetra metus odio a lectus. Praesent vitae arcu tempor neque lacinia pretium. Etiam
-                commodo
-                dui eget wisi. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Sed ac dolor sit
-                amet
-                purus
-                malesuada congue. Aliquam erat volutpat. Proin pede metus, vulputate nec, fermentum fringilla, vehicula
-                vitae,
-                justo. Mauris metus. Fusce aliquam vestibulum ipsum. Fusce nibh.</p>
-
-            <p>Etiam dictum tincidunt diam. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Nam libero
-                tempore,
-                cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere
-                possimus,
-                omnis
-                voluptas assumenda est, omnis dolor repellendus. Class aptent taciti sociosqu ad litora torquent per
-                conubia
-                nostra, per inceptos hymenaeos. Vivamus porttitor turpis ac leo. Quisque tincidunt scelerisque libero.
-                Ut
-                enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Etiam
-                dui
-                sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam quis quam. Morbi leo mi, nonummy eget
-                tristique
-                non, rhoncus non leo. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Mauris tincidunt
-                sem
-                sed
-                arcu. Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. Aenean placerat. Nullam
-                sapien
-                sem, ornare ac, nonummy non, lobortis a enim. Ut tempus purus at lorem. Mauris elementum mauris vitae
-                tortor.
-                Integer vulputate sem a nibh rutrum consequat. Aenean placerat.</p>
-
-            <p>Pellentesque pretium lectus id turpis. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                architecto
-                beatae
-                vitae dicta sunt explicabo. Mauris metus. Proin mattis lacinia justo. Duis condimentum augue id magna
-                semper
-                rutrum. Quisque tincidunt scelerisque libero. Aliquam ante. Ut enim ad minim veniam, quis nostrud
-                exercitation
-                ullamco laboris nisi ut aliquip ex ea commodo consequat. Curabitur sagittis hendrerit ante. Vestibulum
-                erat
-                nulla, ullamcorper nec, rutrum non, nonummy ac, erat. Morbi leo mi, nonummy eget tristique non, rhoncus
-                non
-                leo.
-                Integer pellentesque quam vel velit. Nulla pulvinar eleifend sem. Fusce nibh. Fusce tellus. Integer
-                imperdiet
-                lectus quis justo. Praesent vitae arcu tempor neque lacinia pretium. Quisque porta.</p>
-
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam in
-                lorem
-                sit
-                amet leo accumsan lacinia. Nulla quis diam. Phasellus faucibus molestie nisl. Ut enim ad minim veniam,
-                quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Curabitur bibendum justo
-                non
-                orci.
-                Integer malesuada. Fusce nibh. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Cum
-                sociis
-                natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque sapien. Sed ac
-                dolor
-                sit
-                amet purus malesuada congue. Pellentesque arcu. Proin pede metus, vulputate nec, fermentum fringilla,
-                vehicula
-                vitae, justo. Integer vulputate sem a nibh rutrum consequat. Nam libero tempore, cum soluta nobis est
-                eligendi
-                optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda
-                est,
-                omnis
-                dolor repellendus. Cras elementum. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Fusce
-                tellus
-                odio,
-                dapibus id fermentum quis, suscipit id erat.</p>
         </div>
         <div class="bottomline"></div>
     </div>
 
     <div class="footer">
-        <p>&copy <a href="https://dejvoss.cz">DEJVOSS</a> & Omniarchive</p>
+        <p>&copy Omniarchive | Designed by <a href="https://dejvoss.cz">DEJVOSS</a></p>
     </div>
 
 </body>
