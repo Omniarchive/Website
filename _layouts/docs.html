@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            color: white;
+            font-size: medium;
+            font-family: "Noto Sans JP";
+            background-color: rgb(0, 0, 0);
+            background-image: url("packgroundd.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        /* The navigation bar */
+        .navbar {
+            display: flex;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            z-index: 99;
+        }
+
+        .navbar a:link,
+        .navbar a:active,
+        .navbar a:visited {
+            margin: 0 auto;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .navlogo {
+            width: 40px;
+            height: 40px;
+            background-size: 40px;
+            background-image: url("logo.png");
+            margin: auto;
+        }
+
+        .main {
+            margin-top: 80px;
+            font-size: 19px;
+        }
+
+        .header {
+            font-size: 25px;
+        }
+
+        a:link,
+        a:active,
+        a:visited {
+            text-decoration: none;
+            color: rgb(54, 134, 253);
+        }
+
+        .pagetitle {
+            text-shadow: 2px 2px #000000;
+        }
+
+        .whitecurved {
+            margin: 0 auto;
+            max-width: 70%;
+            background-color: rgba(49, 49, 49, 0.5);
+            border-radius: 25px;
+            padding: 10px 10px;
+        }
+
+        .bottomline {
+            padding-bottom: 75px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            text-align: center;
+        }
+
+        /* stupid css */
+
+        .wrap {
+            overflow: hidden;
+        }
+
+        .whitebox {
+            position: relative;
+            margin: 0 auto;
+            display: table;
+            border-radius: 25px;
+            padding: 10px 10px;
+            max-width: 20%;
+            min-width: 20%;
+            display: inline-block;
+            background-color: rgba(116, 116, 116, 0.63);
+            color: rgb(204, 204, 204);
+        }
+
+        .whitebox+.whitebox {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        .whitebox #title {
+            font-size: 18px;
+            color: white;
+        }
+
+        .whitebox #date {
+            font-size: 10px;
+            color: rgb(219, 219, 219);
+        }
+
+        .whitebox #cont {
+            font-size: 13px;
+            color: rgb(219, 219, 219);
+        }
+
+        .whitebox #end {
+            bottom: 10px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        img {
+            border-radius: 15px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .whitebox #buttondownload {
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #34bd6d;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        .whitebox #buttondownloadsoon {
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: rgb(48, 48, 48);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        /* Fixed sidenav, full height */
+        .sidenav {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            /*overflow-x: hidden;*/
+            padding-top: 20px;
+        }
+
+        /* Style the sidenav links and the dropdown button */
+        .sidenav a,
+        .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #818181;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* On mouse-over */
+        .sidenav a:hover,
+        .dropdown-btn:hover {
+            color: #f1f1f1;
+        }
+
+        /* Main content */
+        .main {
+            margin-left: 200px;
+            /* Same as the width of the sidenav */
+            /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        /* Add an active class to the active dropdown button */
+        .active {
+            background-color: rgb(58, 58, 58);
+            color: white;
+        }
+
+        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+        .dropdown-container {
+            display: none;
+            background-color: #262626;
+            padding-left: 8px;
+        }
+
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+            float: right;
+            padding-right: 8px;
+        }
+
+        .dropdown-container {
+            position: absolute;
+            width: 100%;
+            left: 100%;
+            z-index: 1;
+            top: 0px;
+        }
+
+        .dropdown-menu {
+            position: relative;
+        }
+
+        /* Some media queries for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+    <title>{{ page.title }} | Omniarchive Docs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/files/styles.css">
+    <link rel="shortcut icon" type="image/png" href="/files/logo.png" />
+
+    <meta property="og:title" content="Omniarchive Docs - {{ page.title }}" />
+    <meta property="og:description" content="Omniarchive's documentations will help with almost everything!" />
+    <meta property="og:site_name" content="omniarchive.net" />
+    <meta property="og:url" content="omniarchive.net" />
+    <meta property="og:image" content="/files/logo.png" />
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navlogo">
+
+        </div>
+        <a href="/">Home</a>
+        <a href="/faq">FAQ</a>
+        <a href="/downloads">Downloads</a>
+        <a href="/discord">Discord</a>
+        <a href="/sheet">Index</a>
+    </div>
+
+    <div class="sidenav">
+        <br><br>
+        <div class="dropdown-menu">
+            <button class="dropdown-btn">Java Edition
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <div class="dropdown-menu">
+                    <button class="dropdown-btn">Playing Old Versions
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">BetaCraft (Recommended)</a>
+                        <a href="#">MultiMC</a>
+                        <a href="#">Mojang's Launcher</a>
+                    </div>
+                </div>
+                <a href="#">Installing mods</a>
+                <div class="dropdown-menu">
+                    <button class="dropdown-btn">Hosting Servers
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                        <a href="#">Classic - Alpha</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="pagetitle">
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="whitecurved">
+            <img src="/files/logo.png">
+
+            {{ content }}
+
+        </div>
+        <div class="bottomline"></div>
+    </div>
+
+    <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var dropdownContent = this.nextElementSibling;
+                if (dropdownContent.style.display === "block") {
+                    dropdownContent.style.display = "none";
+                } else {
+                    dropdownContent.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+    <div class="footer">
+        <p>&copy Omniarchive | Designed by <a href="https://dejvoss.cz">DEJVOSS</a></p>
+    </div>
+
+</body>
+
+</html>
