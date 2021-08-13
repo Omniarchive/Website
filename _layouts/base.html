@@ -19,7 +19,7 @@
 
         /* The navigation bar */
         .navbar {
-
+            display: flex;
             position: fixed;
             left: 0;
             top: 0;
@@ -30,56 +30,54 @@
             overflow: hidden;
         }
 
-        /* Links inside the navbar */
-        .navbar a {
+        .navbar a:link,
+        .navbar a:active,
+        .navbar a:visited {
             margin: 0 auto;
             display: block;
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
 
-        /* Change background on mouse-over */
         .navbar a:hover {
-            background: #ddd;
-            color: black;
+            text-decoration: underline;
         }
 
         .navlogo {
-            margin: 0 auto;
             width: 40px;
             height: 40px;
             background-size: 40px;
             background-image: url("logo.png");
+            margin: auto;
         }
 
         .main {
-            margin-top: 120px;
-            /* Add a top margin to avoid content overlay */
+            margin-top: 80px;
         }
 
-        a:link {
-            color: rgb(87, 87, 255);
-        }
-
-        a:active {
-            color: rgb(54, 54, 253);
-        }
-
+        a:link,
+        a:active,
         a:visited {
+            text-decoration: none;
             color: rgb(54, 134, 253);
+        }
+
+        .pagetitle {
+            text-shadow: 2px 2px #000000;
         }
 
         .whitecurved {
             margin: 0 auto;
-            max-width: 50%;
+            max-width: 70%;
             background-color: rgba(49, 49, 49, 0.5);
             border-radius: 25px;
+            padding: 10px 10px;
         }
 
-        .whitecurved p {
-            padding: 10px 10px;
+        .bottomline {
+            padding-bottom: 75px;
         }
 
         .footer {
@@ -87,9 +85,84 @@
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(48, 48, 48);
             color: white;
             text-align: center;
+        }
+
+        .wrap {
+            overflow: hidden;
+        }
+        .whitebox {
+            position: relative;
+            margin: 0 auto;
+            display: table;
+            border-radius: 25px;
+            padding: 10px 10px;
+            max-width: 20%;
+            float: left;
+            background-color: rgba(116, 116, 116, 0.63);
+            color: rgb(204, 204, 204);
+        }
+
+        .whitebox+.whitebox {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        .whitebox #title {
+            font-size: 18px;
+            color: white;
+        }
+
+        .whitebox #date {
+            font-size: 10px;
+            color: rgb(0, 0, 0);
+        }
+
+        .whitebox #cont {
+            font-size: 13px;
+            color: rgb(219, 219, 219);
+        }
+
+        .whitebox #end {
+            bottom: 10px;
+            background-color: rgba(255, 255, 255, 0);
+        }
+
+        img {
+            border-radius: 15px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .whitebox #buttondownload {
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #34bd6d;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background-color: rgb(48, 48, 48);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
         }
     </style>
 </head>
@@ -99,15 +172,84 @@
         <div class="navlogo">
 
         </div>
-        <a href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">FAQ</a>
+        <a href="#">Downloads</a>
+        <a href="#">Discord</a>
+        <a href="#">Index</a>
     </div>
 
     <div class="main">
+        <div class="pagetitle">
+            <h1>Page Title</h1>
+        </div>
         <div class="whitecurved">
-            <h2>WOMniarchive Client Reborn</h2>
-            <p>Sample Text.</p>
+            <p>Sample <a href="#">Text</a>.</p>
+
+            <div class="wrap">
+                <div class="whitebox">
+                    <img src="packground.png">
+                    <div id="title">Sample title.</div>
+                    <div id="date">25th January 2010</div>
+                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        In
+                        dapibus augue non sapien.</div>
+                    <a href="#" id="buttondownload">Download</a>
+                </div>
+
+                <div class="whitebox">
+                    <img src="packground.png">
+                    <div id="title">Sample title.</div>
+                    <div id="date">25th January 2010</div>
+                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        In
+                        dapibus augue non sapien.</div>
+                    <a href="#" id="buttondownload">Download</a>
+                </div>
+
+                <div class="whitebox">
+                    <img src="packground.png">
+                    <div id="title">Sample title.</div>
+                    <div id="date">25th January 2010</div>
+                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        In
+                        dapibus augue non sapien.</div>
+                    <a href="#" id="buttondownload">Download</a>
+                </div>
+
+                <div class="whitebox">
+                    <img src="packground.png">
+                    <div id="title">Sample title.</div>
+                    <div id="date">25th January 2010</div>
+                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        In
+                        dapibus augue non sapien.</div>
+                    <a href="#" id="buttondownload">Download</a>
+                </div>
+
+                <div class="whitebox">
+                    <img src="packground.png">
+                    <div id="title">Sample title.</div>
+                    <div id="date">25th January 2010</div>
+                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        In
+                        dapibus augue non sapien.</div>
+                    <a href="#" id="buttondownload">Download</a>
+                </div>
+
+                <div class="whitebox">
+                    <img src="packground.png">
+                    <div id="title">Sample title.</div>
+                    <div id="date">25th January 2010</div>
+                    <div id="cont">Description goes hereeeee. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        In
+                        dapibus augue non sapien.</div>
+                    <a href="#" id="buttondownload">Download</a>
+                </div>
+            </div>
+
+            <hr><br>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Phasellus faucibus
                 molestie nisl. Fusce aliquam vestibulum ipsum. Nullam justo enim, consectetuer nec, ullamcorper ac,
                 vestibulum
@@ -212,6 +354,7 @@
                 odio,
                 dapibus id fermentum quis, suscipit id erat.</p>
         </div>
+        <div class="bottomline"></div>
     </div>
 
     <div class="footer">
