@@ -88,6 +88,12 @@ a:visited {
     text-align: center;
 }
 
+img {
+    border-radius: 15px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* stupid css */
 
 .wrap {
@@ -131,12 +137,6 @@ a:visited {
     background-color: rgba(255, 255, 255, 0);
 }
 
-img {
-    border-radius: 15px;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 iframe {
     border-radius: 10px;
 }
@@ -161,6 +161,12 @@ iframe {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
+}
+
+.whitebox #buttondownload img {
+    border-radius: 0px;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 ::-webkit-scrollbar {
