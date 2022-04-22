@@ -1,46 +1,4022 @@
 [
     {
-        "id": "rd-132211-launcher",
-        "status": "found",
-        "version": "n/a",
-        "pvn": "n/a",
-        "released": "2013-08-06",
-        "proof": "Launcher",
-        "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
-        "md5": "99FDAEA10C494B9C3C3254636B98B799",
-        "sha256": "407460840EAEAB01260B9E7951BD518F7C31E2E3F12A352E436502FA7050A6E7"
+        "ID": "rd-132211-launcher",
+        "Version": "n/a",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
+        "MD5": "99FDAEA10C494B9C3C3254636B98B799",
+        "SHA-256": "407460840EAEAB01260B9E7951BD518F7C31E2E3F12A352E436502FA7050A6E7"
     },
     {
-        "id": "rd-132328-launcher",
-        "status": "found",
-        "version": "n/a",
-        "pvn": "n/a",
-        "released": "2013-08-06",
-        "proof": "Launcher",
-        "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
-        "md5": "70E33A81C541B13A477E68C1207124EB",
-        "sha256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
+        "ID": "rd-132328-launcher",
+        "Version": "n/a",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
+        "MD5": "70E33A81C541B13A477E68C1207124EB",
+        "SHA-256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
     },
     {
-        "id": "test-lost-ver",
-        "status": "lost",
-        "version": "n/a",
-        "pvn": "n/a",
-        "released": "2013-08-06",
-        "proof": "Launcher",
-        "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
-        "md5": "70E33A81C541B13A477E68C1207124EB",
-        "sha256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
+        "ID": "rd-160052-launcher",
+        "Version": "n/a",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
+        "MD5": "24C5CC99A2A612697ED2F7D5D04242FE",
+        "SHA-256": "BBD6E24A276C5082F8AAFAE152BED450C161D56FF776472821DE56C0DAA7FE1E"
     },
     {
-        "id": "test-lacks-proof-ver",
-        "status": "lacks",
-        "version": "n/a",
-        "pvn": "n/a",
-        "released": "2013-08-06",
-        "proof": "Launcher",
-        "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
-        "md5": "70E33A81C541B13A477E68C1207124EB",
-        "sha256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
+        "ID": "rd-161348-launcher",
+        "Version": "n/a",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "The non-launcher version was never publicly released, so it doesn't get an entry here. rd-20090515-launcher is identical, so it doesn't get an entry.",
+        "MD5": "80882B8936A5C8D91500838A6660B504",
+        "SHA-256": "CB8BDA0074AC44D8D26BFE0C101F08EDEB2291915F32AD1D2909831CD84934E0"
+    },
+    {
+        "ID": "ID",
+        "Version": "Version",
+        "PVN": "PVN",
+        "Released": "Released",
+        "Proof": "Proof",
+        "Notes": "Notes",
+        "MD5": "MD5",
+        "SHA-256": "SHA-256"
+    },
+    {
+        "ID": "",
+        "Version": "",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (12:07:06) notch: minecraft alpha is available.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "",
+        "Version": "",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (12:16:34) notch: dock, fartron: There's a new version up.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "",
+        "Version": "",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (12:25:56) notch: dock, fartron: New version, reload the page.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "",
+        "Version": "",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (12:48:58) notch: dock, fartron, Jrsquee: I've uploaded a new version that fixed the mouse lag for me.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.1a",
+        "Version": "0.0.1a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.2a",
+        "Version": "0.0.2a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (13:05:07) notch: does it say ''0.0.2a'' in the top left corner of the applet?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.3a",
+        "Version": "0.0.3a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (14:05:16) notch: fartron: I uploaded 0.0.3 with caves.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.4a",
+        "Version": "0.0.4a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.5a",
+        "Version": "0.0.5a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.6a",
+        "Version": "0.0.6a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.7a",
+        "Version": "0.0.7a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.8a",
+        "Version": "0.0.8a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.9a",
+        "Version": "0.0.9a",
+        "PVN": "",
+        "Released": "2009-05-16",
+        "Proof": "#ERROR!",
+        "Notes": "RinkuHero's logs: (15:15:08) notch: new version out, you can't build in a space you're occupying, and I fixed a small graphical glitch with preview tiles [Notch left the room for several hours after uploading this version. Given that we have screenshot proof of 0.0.9a from 1 hour later, it is likely that this announcement is for 0.0.9a.]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.10a",
+        "Version": "0.0.10a",
+        "PVN": "",
+        "Released": "2009-05-17",
+        "Proof": "",
+        "Notes": "LWJGL IRC logs: [17:53:09] <Notch_> 0.0.10a should be up now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.11a",
+        "Version": "0.0.11a",
+        "PVN": "",
+        "Released": "2009-05-17",
+        "Proof": "#ERROR!",
+        "Notes": "This may have been the version Notch released on this TIGSource thread.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.11a-launcher",
+        "Version": "0.0.11a",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "This version is likely to be a developer build for 0.0.12a, due to internal modify dates being slightly late and the presence of early multiplayer code.",
+        "MD5": "A6E03C2EAF74709FACC0D2477648E999",
+        "SHA-256": "2CA13B43EA3EFC0388C5C1D4613854F6412F97D4C02F4B18729F648E46F02D1F"
+    },
+    {
+        "ID": "c0.0.12a",
+        "Version": "0.0.12a",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.12a_01",
+        "Version": "0.0.12a_01",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.12a_02",
+        "Version": "0.0.12a_02",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.12a_03-2349",
+        "Version": "0.0.12a_03",
+        "PVN": "",
+        "Released": "2009-05-19",
+        "Proof": "",
+        "Notes": "RinkuHero's logs: (23:49:36) fartron: 0.0.12a_03 [...] (23:49:37) fartron: is the newest",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.12a_03-0018",
+        "Version": "0.0.12a_03",
+        "PVN": "n/a",
+        "Released": "2009-05-20",
+        "Proof": "#ERROR!",
+        "Notes": "Compile time is 00:18 on May 20th, but the version is mentioned specifically in IRC at 23:49 on May 19th.",
+        "MD5": "A93F9292A30C51A8CE0D47AACEBA08A9",
+        "SHA-256": "44B51F5493C676BB2BDFFA3C52B26D426A3307945E304DB7DD0C59F34E767BE9"
+    },
+    {
+        "ID": "c0.0.13a",
+        "Version": "0.0.13a",
+        "PVN": "",
+        "Released": "2009-05-2x",
+        "Proof": "",
+        "Notes": "A video showcasing a version named 0.0.13a is seen on Notch's YouTube channel, however is likely a developer's log.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.13a-launcher",
+        "Version": "0.0.13a",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "This version is most likely a developer build for 0.0.13a, as the ''true'' version shows normal terrain. In this version, terrain is always flat.",
+        "MD5": "3617FBF5FBFD2B837EBF5CEB63584908",
+        "SHA-256": "B3B5A88834C2351C948950C6D60C822D0D1D60F88C5ADAD4794F8AD6FE5B3A33"
+    },
+    {
+        "ID": "c0.0.13a_01",
+        "Version": "0.0.13a_01",
+        "PVN": "",
+        "Released": "2009-05-2x",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.13a_02",
+        "Version": "0.0.13a_02",
+        "PVN": "",
+        "Released": "2009-05-2x",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.13a_03",
+        "Version": "0.0.13a_03",
+        "PVN": "n/a",
+        "Released": "2009-05-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "5CC32C3110442D305F3F63F1FA1AB4BF",
+        "SHA-256": "AACF28F56DA1FACD6C927538CC487036C678FC099DDEFAB7A858C704FCE1F949"
+    },
+    {
+        "ID": "c0.0.13a_03-launcher",
+        "Version": "0.0.13a_03",
+        "PVN": "n/a",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "",
+        "MD5": "A9527CB5AEF198E0F53E235EBE13DC75",
+        "SHA-256": "40595F0C37ADB1C581D0D4D836733806FF75AF977836F815F1A5600FEF0A43BE"
+    },
+    {
+        "ID": "c0.0.14a",
+        "Version": "0.0.14a",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Rotab's logs: (22:26:54) <Rotab> 0.0.14? =D",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_01",
+        "Version": "0.0.14a_01",
+        "PVN": "",
+        "Released": "2009-05-27",
+        "Proof": "",
+        "Notes": "Rotab's logs: (22:36:35) <@notch> 0.0.14a_01 is up, fixing the level load bug",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_02",
+        "Version": "0.0.14a_02",
+        "PVN": "",
+        "Released": "2009-05-27",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_03",
+        "Version": "0.0.14a_03",
+        "PVN": "",
+        "Released": "2009-05-27",
+        "Proof": "#ERROR!",
+        "Notes": "Rotab's logs: (23:04:14) <@notch> I'd appreciate it if you could reload so you get 14a_03, then try loading your levels",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_04-1735",
+        "Version": "0.0.14a_04",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Rotab's logs: (17:35:52) * notch changes topic to: http://www.minecraft.net/ | http://www.mojang.com/forum/ | 0.0.14a_04 is up. You can now set the spawn point with return.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_04-1743",
+        "Version": "0.0.14a_04",
+        "PVN": "",
+        "Released": "2009-05-28",
+        "Proof": "",
+        "Notes": "Rotab's logs: (17:40:22) <mezo> mouse movement seems very bugged [...] (17:40:29) <@notch> I'll try fixing it [...] (17:43:35) <@notch> is the mouse look fixed now? [...] (17:44:02) <mezo> mouse is fixed [...] (17:44:09) <mezo> nm no it's not",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_05-1748",
+        "Version": "0.0.14a_05",
+        "PVN": "",
+        "Released": "2009-05-28",
+        "Proof": "",
+        "Notes": "Rotab's logs: (17:48:13) <@notch> mezo: Restart the browser again, you should get _05 now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_05-1752",
+        "Version": "0.0.14a_05",
+        "PVN": "",
+        "Released": "2009-05-28",
+        "Proof": "",
+        "Notes": "Rotab's logs: (17:48:58) <@notch> gah, now the mouse isn't working at all [...] (19:52:18) <@notch> ok, try now [Notch's reply to Snuggletummy here seems to match this (Tigsource is UTC-8)]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_06",
+        "Version": "0.0.14a_06",
+        "PVN": "",
+        "Released": "2009-05-28",
+        "Proof": "",
+        "Notes": "Rotab's logs: (18:23:30) <@notch> mezo: Reload the page, you should get _06",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_07",
+        "Version": "0.0.14a_07",
+        "PVN": "",
+        "Released": "2009-05-28",
+        "Proof": "#ERROR!",
+        "Notes": "Rotab's logs: (18:31:18) <@notch> mezo: _07 is up now.. does it work NOW?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.14a_08",
+        "Version": "0.0.14a_08",
+        "PVN": "n/a",
+        "Released": "2009-05-28",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "CCC1C31A98D6D0DA99478073777CC738",
+        "SHA-256": "A9FDEC0CC0AACD8A54543FDB4865F82E136DCC6EA571E1FBBCA11ADEFE58B52E"
+    },
+    {
+        "ID": "c0.0.15a-05311904",
+        "Version": "0.0.15a",
+        "PVN": "n/a",
+        "Released": "2009-05-31",
+        "Proof": "#ERROR!",
+        "Notes": "testvan's logs: (19:05) <@notch> http://www.minecraft.net/mptest/ [...] (19:05) <Testvan> im joinin dat asap [Our jar dates to 19:04 and came from Testvan]",
+        "MD5": "AA931E0A6CC04430ABC91921BEF1E378",
+        "SHA-256": "10DF1A57488BFE76C564B78DBA4E39F251EE105701AA7BFFEF490E69FC9DAF83"
+    },
+    {
+        "ID": "c0.0.15a-06031816",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "2009-06-03",
+        "Proof": "",
+        "Notes": "testvan's logs: (18:16) * Notch changes topic to 'http://www.minecraft.net/  |  The multiplayer test is up and running again at http://www.minecraft.net/mptest/index.jsp  |  I'd really appreciate it if you could log in and run around so I have something to test against.'",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a-06031828",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "2009-06-03",
+        "Proof": "",
+        "Notes": "testvan's logs: (18:28) <@Notch> the mp test server is updated with better client interpolation. :) [...] (18:34) <@Notch> the players animate better now, I hope?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a-06031900",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "2009-06-03",
+        "Proof": "",
+        "Notes": "testvan's logs: (19:00) <@Notch> ok, restart your clients now. :) [...] (19:07) <Parthon> someone is destroying my stuff [...] (13:07) <@Notch> it's me =D (13:07) <@Notch> restart the client to get player names",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a-06031950",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "testvan's logs: (19:50) <@Notch> try pressing t",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a-06041651",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "",
+        "Notes": "testvan's logs: (16:50) <@Notch> ok, I did some experimental work on the level sending code. [...] (16:51) * Notch changes topic to 'http://www.minecraft.net/  |  Multiplayer test is back up!' [...] (16:52) <@Notch> doesn't seem to work, hold on",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a-06041658",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "",
+        "Notes": "testvan's logs: (16:52) * Notch changes topic to 'http://www.minecraft.net/  |  Multiplayer test is back down, gimme a sec.' [...] (16:58) * Notch changes topic to 'http://www.minecraft.net/  |  Multiplayer test is up! Please test it :D'",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a-06041703",
+        "Version": "0.0.15a",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "",
+        "Notes": "testvan's logs: (17:01) * Notch changes topic to 'http://www.minecraft.net/  |  Multiplayer test is down, hold!  |   Please test mp (when the server is up) at http://www.minecraft.net/mptest/' [...]  (17:03) * Notch changes topic to 'http://www.minecraft.net/  |  Multiplayer test is UP!  |   Please test mp (when the server is up) at http://www.minecraft.net/mptest/'",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a_01",
+        "Version": "0.0.15a_01",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "",
+        "Notes": "testvan's logs: (17:15) <@Notch> restart your clients to get no more vanishing players [Version number isn't mentioned but this is the last update before 0.0.15a_02]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a_02",
+        "Version": "0.0.15a_02",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "#ERROR!",
+        "Notes": "testvan's logs: (17:53) <@Notch> restart the client and meet me at the spawn, I need some help testing something. :)",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a_0x-2045",
+        "Version": "",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "",
+        "Notes": "testvan's logs: (20:45) <Water-Marine> it won't connect to the server :(  [...]  (20:45) <@Notch> it's back up now [...]  (20:45) <@Notch> and my god people connect fast, haha",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.15a_0x-2049",
+        "Version": "",
+        "PVN": "",
+        "Released": "2009-06-04",
+        "Proof": "",
+        "Notes": "testvan's logs: (20:46) <@Notch> AHHH!!! [...] (21:46) <unknownczar> CRASH [...] (20:47) <@Notch> lol, I'm fixing some stuff. :) [...] (20:49) <Onforty> Notch? MP test up? [...] (20:49) <@Notch> Onforty: Yes",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a",
+        "Version": "0.0.16a",
+        "PVN": "",
+        "Released": "2009-06-07",
+        "Proof": "",
+        "Notes": "Likely proof, Notch says 'I'll get an MP test up again today in like two-three hours', which matches this IRC log proof which is ~3 hours later: Testvan's logs: (17:08) <Barlon> yay 0.0.16a!",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_01",
+        "Version": "0.0.16a_01",
+        "PVN": "",
+        "Released": "2009-06-07",
+        "Proof": "#ERROR!",
+        "Notes": "testvan's logs: (18:07) <m0tive> gah! [There was a lot of people mentioning a crash during this, it is then followed by the next message]  (18:10) <m0tive> downloading new package...",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-071841",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-07",
+        "Proof": "",
+        "Notes": "testvan's logs: (18:41) <@Notch> do you get a nice ''the server is full'' message on the site now? [This screenshot from 19:08 proves that this version is 0.0.16a_02]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-081026",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-08",
+        "Proof": "",
+        "Notes": "Rotab's logs: (10:26:10) <@Notch> if anyone is available, I need some more mp testing done. =) [...]  (10:26:57) * Notch changes topic to: http://www.minecraft.net/ | mp test at http://www.minecraft.net/mptest.jsp",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-081036",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-08",
+        "Proof": "",
+        "Notes": "Rotab's logs: (10:33:58) <@Notch> hold, fixing a bug.. [...]  (10:36:11) <@Notch> server's up",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-081047",
+        "Version": "0.0.16a_02",
+        "PVN": "3",
+        "Released": "2009-06-08",
+        "Proof": "#ERROR!",
+        "Notes": "Rotab's logs: (10:47:43) <@Notch> restarting server, I think I got the bug now [This client was almost certainly not the last 0.0.16a_02, due to it being 9 hours before the blogpost for the public MP release)",
+        "MD5": "7F824C3EC484D748A82A0AAE9B237A56",
+        "SHA-256": "069D6EC86FF45F0783AE986E38788337C2BD13E15EC9EF2D75965E2D9D36FEF1"
+    },
+    {
+        "ID": "c0.0.16a_02-081722",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-08",
+        "Proof": "",
+        "Notes": "Rotab's logs: (17:22:34) <@Notch> I restarted the server  [Possibly no client update here]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-081736",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-08",
+        "Proof": "",
+        "Notes": "Rotab's logs: (17:36:01) <@Notch> back up now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-08181x",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-08",
+        "Proof": "",
+        "Notes": "Rotab's logs: (18:12:22) <@Notch> took it down [...] (18:18:01) <@Notch> http://www.minecraft.net/servers.jsp [...] (18:18:09) <@Notch> hmm, I think my firewall is messed uo [...] (18:18:56) <@Notch> there we go [...] (18:19:26) <Sl1N0> Ooh custom motd",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.16a_02-081855",
+        "Version": "0.0.16a_02",
+        "PVN": "",
+        "Released": "2009-06-08",
+        "Proof": "",
+        "Notes": "Rotab's logs: (18:55:27) * Notch changes topic to: http://www.minecraft.net/ | Check out the minecraft front page for MP server download | Keep in mind that it might be very buggy still. :) [Likely the last 0.0.16a_02 as it matches this blogpost which dates to 19:08]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.17a-1916",
+        "Version": "0.0.17a",
+        "PVN": "",
+        "Released": "2009-06-10",
+        "Proof": "",
+        "Notes": "Blogpost dates to this time, however it mentions that the version is not uploaded yet. c1.3 server was compiled at 19:45, so still a possible reupload. There are no IRC logs to disprove this yet.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.17a",
+        "Version": "0.0.17a",
+        "PVN": "4",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Jar dates to 20:14 ",
+        "MD5": "E3D6A113D3D8118F98E912FFF55152B4",
+        "SHA-256": "56A95B62C1D3D7825290CAA03B5DC31823DECB46C57394EF1D7674E4CE844C20"
+    },
+    {
+        "ID": "c0.0.18a",
+        "Version": "0.0.18a",
+        "PVN": "",
+        "Released": "2009-06-1x",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.18a_01",
+        "Version": "0.0.18a_01",
+        "PVN": "",
+        "Released": "2009-06-1x",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.18a_02",
+        "Version": "0.0.18a_02",
+        "PVN": "4",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "1ED0F68D29559984A293A7D5A3E1D4BA",
+        "SHA-256": "8287686BDA4074A6CAB7FAE34502A72094F658EF2370A2FAD1C025C311D49B2C"
+    },
+    {
+        "ID": "c0.0.19a",
+        "Version": "0.0.19a",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.19a_01",
+        "Version": "0.0.19a_01",
+        "PVN": "",
+        "Released": "2009-06-19",
+        "Proof": "",
+        "Notes": "DBN's logs: (23:19:32) <Notch> I'm switching glass to a non-semi-trasparent texture",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.19a_02",
+        "Version": "0.0.19a_02",
+        "PVN": "",
+        "Released": "2009-06-19",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.19a_03",
+        "Version": "0.0.19a_03",
+        "PVN": "",
+        "Released": "2009-06-19",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.19a_04",
+        "Version": "0.0.19a_04",
+        "PVN": "5",
+        "Released": "2009-06-20",
+        "Proof": "",
+        "Notes": "DBN's logs: (00:53:28) <Notch> _04 is up now, fixing that",
+        "MD5": "2792B388AF67F67F33B7919B497BAC69",
+        "SHA-256": "8477482095A0A4D79486425BA9D30F5565FB4F2A11732A4B1193BFF2B61F59E7"
+    },
+    {
+        "ID": "c0.0.19a_05",
+        "Version": "0.0.19a_05",
+        "PVN": "",
+        "Released": "2009-06-20",
+        "Proof": "",
+        "Notes": "DBN's logs: (01:19:57) <Rroff> 19a_05 is the new one? // (01:20:00) <Notch> yes",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.19a_06-0132",
+        "Version": "0.0.19a_05",
+        "PVN": "",
+        "Released": "2009-06-20",
+        "Proof": "",
+        "Notes": "DBN's logs: (01:32:12) <Notch> Rroff, Zurik: Does it work better now? [...] (01:32:22) <Notch> (client _06)",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.19a_06-0137",
+        "Version": "0.0.19a_06",
+        "PVN": "5",
+        "Released": "2009-06-20",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (01:36:20) <Notch> ok, lemme try one last thing [...] (01:37:37) <Notch> Rroff: Try now [...] (01:37:50) <Notch> version _06, I think I forgot to bump the number",
+        "MD5": "3B18D7BD7B0772AD6673932EC282C868",
+        "SHA-256": "A4C643B65619C4EFC7B840474A9F7832B250855E6EEB629FF8A6F31779966FD9"
+    },
+    {
+        "ID": "c0.0.20a",
+        "Version": "0.0.20a",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.20a_01",
+        "Version": "0.0.20a_01",
+        "PVN": "6",
+        "Released": "2009-06-20",
+        "Proof": "#ERROR!",
+        "Notes": "PoE has a last modified time of 2009-06-20 21:56:37 GMT. Since the previous version was released on the same day, it must have been released on that date.",
+        "MD5": "543ECE04CC35F9EDC9DD8D178A3F5A78",
+        "SHA-256": "0DB4FBC052217723F0CCB69B3CACC4BA85EC858E166C8720AE81B2DB4071010F"
+    },
+    {
+        "ID": "c0.0.20a_02",
+        "Version": "0.0.20a_02",
+        "PVN": "6",
+        "Released": "2009-06-20",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "F63EDF284F9961CBBD6602744422DFE1",
+        "SHA-256": "A313E2745326A27A20F805B6FFB117FF82C7087913F8E8335DE062C46EFD1960"
+    },
+    {
+        "ID": "c0.0.21a-1951",
+        "Version": "0.0.21a",
+        "PVN": "",
+        "Released": "2009-06-22",
+        "Proof": "",
+        "Notes": "DBN's logs: (19:52:16) <Notch> 0.0.21a is up, fixing the long standing picking bug [...] (20:09:13) <Notch> client is updated again [...] (20:12:15) <peerkoel> hm, client version is still 0.0.21a?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.21a-2008",
+        "Version": "0.0.21a",
+        "PVN": "6",
+        "Released": "2009-06-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "F86C34E1F2C25837137B692C89FD36A2",
+        "SHA-256": "30007CB4182786245BF27E9EE6DE8A393EA0398A58E2B50FD155ABF9395B8DB6"
+    },
+    {
+        "ID": "c0.0.21a_01",
+        "Version": "0.0.21a_01",
+        "PVN": "",
+        "Released": "2009-06-2x",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a-2154",
+        "Version": "0.0.22a",
+        "PVN": "",
+        "Released": "2009-06-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:54:53) <AlLnAtuRalX> http://minecraft.net/play.jsp?server=656b5887cbf258166109cdde6b09a653 Can  someone see if they can connect here? [...] (21:56:05) <Evil-Ville> There's now sound",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a-2158",
+        "Version": "0.0.22a",
+        "PVN": "",
+        "Released": "2009-06-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:56:42) <akuryo> I CAN NOT CONNECT ON ANY SERVER [...] (21:58:07) < 08Notch > I'm fixing [...] (21:58:33) < 08Notch > there we go, the client should work again",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a_01",
+        "Version": "0.0.22a_01",
+        "PVN": "",
+        "Released": "2009-06-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:13:08) <Notch> 0.0.22a_01 is up",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a_02",
+        "Version": "0.0.22a_02",
+        "PVN": "",
+        "Released": "2009-06-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:19:16) <Notch> _03 is up now [...] (22:19:48) <Notch> er, I mean 02",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a_03",
+        "Version": "0.0.22a_03",
+        "PVN": "",
+        "Released": "2009-06-29",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (22:31:09) <Notch> _03 is up, put the fps meter back in",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a_04",
+        "Version": "0.0.22a_04",
+        "PVN": "",
+        "Released": "2009-06-29",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (22:38:26) <Notch> I uploaded a _04, it'll show up in a minute or two",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.22a_05",
+        "Version": "0.0.22a_05",
+        "PVN": "6",
+        "Released": "2009-06-30",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "132B256F65526CD7ED0BAECE2941CAC9",
+        "SHA-256": "C05BB007153092B7FCE785B8882FB638D36A185EA66264014BF5246F37C086A0"
+    },
+    {
+        "ID": "c0.0.23a",
+        "Version": "0.0.23a",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.0.23a_01",
+        "Version": "0.0.23a_01",
+        "PVN": "6",
+        "Released": "2009-07-11",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "E917487730D0243527DBD27A6DF76334",
+        "SHA-256": "DD084A2545D573815866BE90DAEE2E488D2F77CEC12DD9469AD9B8DC814FA7C1"
+    },
+    {
+        "ID": "c0.24_st",
+        "Version": "0.24_SURVIVAL_TEST",
+        "PVN": "",
+        "Released": "2009-09-01",
+        "Proof": "#ERROR!",
+        "Notes": "Multiple examples of a version named ''0.24'' can be found on Notch's blog and YouTube channel, but are likely developer's logs. DBN's logs: (16:54:53) < 08Notch > http://www.minecraft.net/survivaltest/",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.24_st_01",
+        "Version": "0.24_SURVIVAL_TEST_01",
+        "PVN": "",
+        "Released": "2009-09-01",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (17:13:37) <PuyoDead> it's not a browser issue [...] (17:14:07) < 08Notch > PuyoDead: Try now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.24_st_02-1734",
+        "Version": "0.24_SURVIVAL_TEST_02",
+        "PVN": "",
+        "Released": "2009-09-01",
+        "Proof": "",
+        "Notes": "DBN's logs: (17:34:59) < 08Notch > PuyoDead: Could you try again? [...] (17:35:09) < 08Notch > _02 fixes a potential maybe-problem",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.24_st_02-1742",
+        "Version": "0.24_SURVIVAL_TEST_02",
+        "PVN": "",
+        "Released": "2009-09-01",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (17:40:26) < 08Notch > PuyoDead: got time for one really-this-time-last test? [...] (17:42:19) < 08Notch > PuyoDead: Try now [...] (17:43:37) <PuyoDead> Notch: loaded!   [Matches this blogpost from 17:46, video may be for either version]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.24_st_03",
+        "Version": "0.24_SURVIVAL_TEST_03",
+        "PVN": "6",
+        "Released": "2009-09-01",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "46D3A4626407E14881D47CF60CB187AE",
+        "SHA-256": "7318CDD2F29584A7E1F2258B2368501264A18CAD7AAE326655351F236CBE203E"
+    },
+    {
+        "ID": "c0.25_st-1613",
+        "Version": "0.25   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "#ERROR!",
+        "Notes": "Shares its name with a likely unreleased developer version. DBN's logs: (16:13:26) * Notch changes topic to 'http://www.minecraft.net/  |  Survival Mode test version 0.25 is up! [Video is in fact likely for -3 or later as it has the load button on the death screen]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_st-1615",
+        "Version": "0.25   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs: (16:13:49) <Notch> i need to make the arrows more powerful [...] (16:15:16) <Real> do arrows have increased damage now that they're limited, Notch? [...] (16:15:29) <Notch> Real: Yes, in a few seconds. ;)",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_st-1626",
+        "Version": "0.25   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs: (16:16:51) <Snowman> Notcxh, can you put a load level option at the game over screen? [...] (16:18:09) <PuyoDead> creeper 'splosions seem to have been toned down [...] (16:26:38) <Notch> ok, I fixed the creeper craters [...] (16:26:43) <Notch> and added a load button to the death screen",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_st-1658",
+        "Version": "0.25   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs: (16:28:39) <potato> my level will not load [...] (16:57:05) <Notch> level loading will work any second now [...] (16:58:10) <Notch> and arrows stay around much longer",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_01_st",
+        "Version": "0.25_01   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs show a misunderstanding between Notch and Quatroking, explaining why there were likely no versions between 0.25 and 0.25_05. Read the notes below for more information.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_02_st",
+        "Version": "0.25_02   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs: (16:46:37) <Quatroking> so we're on survival_test_4 now? [Quatroking mistakenly thinks there has been 4 patches since 0.25 was uploaded, or thinks that the latest patch is 0.24_04, later on in response to 0.25_05 he says: <Quatroking> 0.25? [...] the hell? [...] it was 0.24_3 yesterday, did you inject five books of java into your brains?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_03_st",
+        "Version": "0.25_03   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs: (16:58:33) < 08Notch > i didn't bump the number :-O [...] (16:58:56) <Quatroking> Notch: but we do have a new version? [...] (16:59:11) < 08Notch > yes, Quatroking [...] (16:59:24) <Quatroking> then how should I put it on the wiki",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_04_st",
+        "Version": "0.25_04   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-09-03",
+        "Proof": "",
+        "Notes": "DBN's logs: (17:00:34) <Quatroking> I'm changing it to 0.24_SURVIVAL_TEST_4, okay? [0.24 is either a typo or Quatroking thinks it is 0.24_04. After Quatroking says this, a new bug is discovered and then Notch uploads 0.25_05, which Notch likely based on Quatroking thinking the last version should have been _04]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.25_05_st",
+        "Version": "0.25_05   SURVIVAL TEST",
+        "PVN": "6",
+        "Released": "2009-09-03",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (17:11:04) <Notch> 0.25_05 is up with a bug fix (monsters chasing dead monsters), and a small bonus. :D",
+        "MD5": "60A2ED2F62C29C3E28D4EB91035C6F27",
+        "SHA-256": "B1CAC525567723144F3D302CBAC20CE90D97F26DB5D7B7A2F23CCE774B4B6C0D"
+    },
+    {
+        "ID": "c0.26_st",
+        "Version": "0.26   SURVIVAL TEST",
+        "PVN": "",
+        "Released": "2009-10-2x",
+        "Proof": "#ERROR!",
+        "Notes": "Shares its name with numerous unreleased developer versions shown on Notch's blog.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.27_st",
+        "Version": "0.27   SURVIVAL TEST",
+        "PVN": "6",
+        "Released": "2009-10-24",
+        "Proof": "#ERROR!",
+        "Notes": "Shares its name with numerous unreleased developer versions shown on Notch's blog.",
+        "MD5": "FBA64B123EDA49CDB0BC3E035C14C6FC",
+        "SHA-256": "9BEF9ADDF17EAC7CC810E6C8434846BC8EDC60D1E3140D05055C950A427602E8"
+    },
+    {
+        "ID": "c0.28",
+        "Version": "0.28",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "In conjunction with this post and MrLordSith's screenshot from Skype we can confirm its existence.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.28_01",
+        "Version": "0.28_01",
+        "PVN": "7",
+        "Released": "2009-10-27",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "54966F226C043E43440B757D97936699",
+        "SHA-256": "81D18C6F1A39DC33AF43E52E8279FADF68B1F6507497E89A5E889B02F6F10F13"
+    },
+    {
+        "ID": "c0.29",
+        "Version": "0.29",
+        "PVN": "",
+        "Released": "2009-10-2x",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "c0.29_01",
+        "Version": "0.29_01",
+        "PVN": "7",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "D174E06129571F853629CDEA5F6130D1",
+        "SHA-256": "16D707D91A5B3BB8A4F24194508882A4C7C85C0DBB3D9DC1789BDE62546847C1"
+    },
+    {
+        "ID": "c0.29_02",
+        "Version": "0.29_02",
+        "PVN": "7",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8951CE03E3C85C56B45556FE6403C642",
+        "SHA-256": "DAD0FD1DE3CE8E7A0CFFD2A206F77514C26546465F2B78602C47E03B751BE099"
+    },
+    {
+        "ID": "c0.30-s",
+        "Version": "0.30",
+        "PVN": "7",
+        "Released": "2009-11-10",
+        "Proof": "#ERROR!",
+        "Notes": "A survival version of 0.30.",
+        "MD5": "5B537289BF46A0122061FA17DCEAF0CC",
+        "SHA-256": "58DB84BF7AA9BCB5F4BDDC112A779EEB885C5E4FA7A1D01E56FD85921D50DECB"
+    },
+    {
+        "ID": "c0.30-c",
+        "Version": "0.30",
+        "PVN": "7",
+        "Released": "2009-11-10",
+        "Proof": "#ERROR!",
+        "Notes": "A creative version of 0.30 (likely the one available on the website until late 2011). Diff here.",
+        "MD5": "A093FA158DC9D1FA7EC6128C5D77B8A5",
+        "SHA-256": "7B0E89C5F8F75374A154DCA356D14563DA6388B33D8F4687946DA2B0CB219A70"
+    },
+    {
+        "ID": "c0.30-c-renew",
+        "Version": "0.30",
+        "PVN": "7",
+        "Released": "2011-08-01",
+        "Proof": "Launcher",
+        "Notes": "Identical to 0.30-2, but with renewed META-INF (2011-07-31). The launcher calls it c0.30_01c. Its checksums match the launcher version's.",
+        "MD5": "FCFD7F83A6B27503CF48202381A5ADF2",
+        "SHA-256": "3BFAA9CECCFD49F62D4C1863D5CD565C24DE1F83BAB982A38E4811AC369993A5"
+    },
+    {
+        "ID": "ID",
+        "Version": "Version",
+        "PVN": "PVN",
+        "Released": "Released",
+        "Proof": "Proof",
+        "Notes": "Notes",
+        "MD5": "MD5",
+        "SHA-256": "SHA-256"
+    },
+    {
+        "ID": "in-20091223-0040",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20091223-1459",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "The proof must be for in-20091223-2 because this video was uploaded an hour before the blog post releasing in-20091231-1.",
+        "MD5": "389646315D5A70FBCAA658668023432F",
+        "SHA-256": "B2AC572F81A5CA1E2BDCCC1216E7706863EA15EEA311AB1F6BB7CCED8AA84639"
+    },
+    {
+        "ID": "in-20091231-2042",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "There is only a small amount of IRC proof for a December 25th Indev, which is not conclusive so it is not included here.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20091231-2257",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "45733EF57E3CDC2F04FF47C3F8152035",
+        "SHA-256": "D4DCF2B8A872FA0F326773CB68FDD79DED4E3F65D01811D10067DFDA48268BAF"
+    },
+    {
+        "ID": "in-20100104-2154",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-04",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:54:23) < 08Notch > /indev/ has been updated [before our jar compile time]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100104-2258",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (23:00:28) < 08Notch > THERE we go [...] (23:00:32) < 08Notch > it should work in /indev/ now   [Blogpost dates to 23:06]",
+        "MD5": "43D417A48517CFAB7B677DB9B2EA7689",
+        "SHA-256": "E003072FFC46AD9B599F4CFB5AAF9560632A633B14B50C9DF308392924BA0081"
+    },
+    {
+        "ID": "in-20100106-1655",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-06",
+        "Proof": "",
+        "Notes": "DBN's logs: (16:55:23) < 08Notch > restart your clients, is the fps bug fixed? ",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100106-2159",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (21:59:00) < 08Notch > /indev/ has been updated",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100106-2220",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-06",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:20:06) < 08Notch > /indev/'s been fixed to allow deep small levels, and something else I forgot",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100107-1851",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "DBN's logs: (18:51:11) < 08Notch > indev has been updated",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100107-1947",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-07",
+        "Proof": "",
+        "Notes": "DBN's logs: (19:47:06) < 08Notch > indev's been updated",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100107-2010",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-07",
+        "Proof": "",
+        "Notes": "DBN's logs: (20:10:11) < 08Notch > vede: Try the indev client now. Is the line gone?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100109-1939",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (19:39:03) < 08Notch > indev's been updated [blogpost doesn't exactly match either, but is likely not proof of another update between the two]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100109-2003",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-09",
+        "Proof": "",
+        "Notes": "DBN's logs: (20:00:04) < 08Notch > updating indev now [...] (20:03:17) < 08Notch > it should be updated by now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100110",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Blogpost dates to 00:04 on the next day",
+        "MD5": "A2D222CCCCD5D26A9B61D009D1D4584E",
+        "SHA-256": "FFB5AE343D4BC7D08134861F64FB2C06C9CA1B24D5116A72945C1DB3819B81E1"
+    },
+    {
+        "ID": "in-20100111-0024",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-11",
+        "Proof": "Twitter [1, 2]",
+        "Notes": "Doesn't match any other update in IRC, so likely was its own update.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100111-2207",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-11",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:07:37) < 08Notch > ok [...] (22:07:39) < 08Notch > reload indev [...] (22:07:46) < 08Notch > click game. press F11.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100111-2210",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "DBN's logs: (22:10:34) < 08Notch > ok, reload indev now and press F11 in it for fullscreen mode. Does it work?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100113-2015",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (20:15:21) < 08Notch > indev's been updated",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-2010011x-xxxx",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-1x",
+        "Proof": "#ERROR!",
+        "Notes": "The day and time of release is unknown, though we know it was released in January because it has floating islands.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100114",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100122",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100124-2119",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (21:20:20) < 08Notch > oops, I think I broke indev ;D [right after blogpost]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100124-2134",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-24",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:34:19) < 08Notch > indev works now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100124-2310",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-24",
+        "Proof": "",
+        "Notes": "DBN's logs: (23:12:26) < 08Notch > Step 1: Restart client. Step 2: Shoot arrow under water.",
+        "MD5": "FC7AC985A87F6BF8291730845A46FCEF",
+        "SHA-256": "53B9B8BBED7B774AF14F87A567CB8BADE4372F2876D1BD74E4B85FA1E9A9C49E"
+    },
+    {
+        "ID": "in-20100125",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "This post's datePublished is 2010-01-25T21:54:03, so it's probably for this version, since its jar time is 21:00 UTC.",
+        "MD5": "7E5B33E586314A4DA5CE01EF48529187",
+        "SHA-256": "F7869DDDE21090095F250228675941F2042F5DA281E3BB713C3CCA1503CB2B5A"
+    },
+    {
+        "ID": "in-20100128-2203",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (21:59:45) < 08Notch > it's indev after all [...] (21:59:59) < 08Notch > Ah, I'll just update now [...] (22:03:10) < 08Notch > ok, it's updated now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100128-2304",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-28",
+        "Proof": "",
+        "Notes": "DBN's logs: (23:08:24) < 08Notch > mc's been updated =) [...] (23:08:27) < 08Notch > err. indev",
+        "MD5": "E4A594B38A5BF831E7954488DB215DE5",
+        "SHA-256": "073D4FCB0FD868FA09E05B9066B45F72BFC3CE6D3A8D06534483CDD26B8D81E3"
+    },
+    {
+        "ID": "in-20100129-1447",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (14:47:27) < 08Notch > indev's been updated",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-1452",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (14:52:10) < 08Notch > oops, you can't craft the stone itmes.. hold on",
+        "MD5": "9F59FC113CCE4B301AC87A572D6E66B6",
+        "SHA-256": "F39C5299A37A1B5A7F8F5D9160A9593B69B824F1AB357436A9C374BB8AAE9E82"
+    },
+    {
+        "ID": "in-20100129-2129",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:29:41) < 08Notch > vede: could you try indev now?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-2134",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:34:46) < 08Notch > vede: Now?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-2136",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:36:07) < 08Notch > Peerko: Reload the page now",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-2138",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:38:57) < 08Notch > Peerko, vede: Try now. If it doesn't redownload the jars, wait a few secs and try again",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-2158",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:49:27) < 08Notch > vede: Hold, update soon [...] (21:58:32) < 08Notch > vede: Now?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-2209",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:09:33) < 08Notch > vede: Now?",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100129-2333",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-29",
+        "Proof": "",
+        "Notes": "DBN's logs: (23:33:08) < 08Notch > ok, it's been updated now :D  Also MCForum post seems to be about this update",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100130",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Two versions are archived, with identical files when extracted, but have binary differences in the JARs. The original was confirmed when RidgeX sent his copy along with his other finds.",
+        "MD5": "8E6B93AEE04612F5F4BEB71FE8144084",
+        "SHA-256": "15A681F206F30F9D0AFFEA9C696FCE3CA5F3EC5A75A90A20648C2BBA208DB1AA"
+    },
+    {
+        "ID": "in-20100131-2157",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: ((21:57:47) < 08Notch > ok, all the old models are in the game now, yay [Blogpost dates to 22:01]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100131-2229",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-31",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:29:05) < 08Notch > ok, the game is updated now  [Possible MCForums match]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100131-2236",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-31",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:36:47) < 08Notch > oops Peerko.. Weird.. [...] (22:36:52) < 08Notch > oh, wait, refresh! [...] (22:36:56) < 08Notch > it should be fixed",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100131-2241",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-31",
+        "Proof": "",
+        "Notes": "Miclee's logs: (22:39) <Lexi> Notch: to repeat - when loading a level you can't close the menu with the back to game button [...] (22:39) <Notch> fixing.. [...] (22:41) <Notch> loading works better now. =)",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100131-2244",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-01-31",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:46:37) < 08Notch > ok, updated with vede's suggested damage model :D",
+        "MD5": "E3FC0C5A695AA1137DB5819002CC74D3",
+        "SHA-256": "DBEEE4DE96066C3DAA31413111B3183CEC7CD743C1EDF772C36EC48168E2F9AB"
+    },
+    {
+        "ID": "in-20100201-0025",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-01",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "C4B1E750335C12FF1B833F1F74295ABE",
+        "SHA-256": "3CE025658642C042AECCD95C3BC1D3EACF3B2AB36B04CEF4FD04B014EAE6C495"
+    },
+    {
+        "ID": "in-20100201-2227",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-01",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "A1105BDBC6C4E0EF936B5E85406006FD",
+        "SHA-256": "11347C38A9AE4A040A670BF08CF3E6C8FA4518D467FC4E416E2DA8F715038AFC"
+    },
+    {
+        "ID": "in-20100202-2218",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-02",
+        "Proof": "",
+        "Notes": "DBN's logs: (22:18:45) <Lexi> So has indev just been updated? [...] (23:04:30) <Redyz> So /indev/ has been updated but mobs aren't aggressive and sheeps come pre-shaven Lol :3",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100202-2311",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-02",
+        "Proof": "",
+        "Notes": "DBN's logs: (23:11:23) < 08Notch > indev's been updated again",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100202-2327",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-02",
+        "Proof": "",
+        "Notes": "Blogpost dates to 3 minutes before our jar so reupload is likely, it's also possible the blogpost is for -2",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100202-2330",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "EBD59AF693E368F364BC6EA40BC07A5D",
+        "SHA-256": "7024DA33CFB27829E49792EF1663394DD81C704220606EDE964E3B67EAABF897"
+    },
+    {
+        "ID": "in-20100204-1541",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (15:41:24) < 08Notch > indev's been updated with enemy pathfinding  [Blogpost dates to 15:45]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100204-2027",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (20:27:59) < 08Notch > indev's been updated  [Blogpost dates to 20:34]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100204-2153",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-04",
+        "Proof": "",
+        "Notes": "DBN's logs: (21:52:51) < 08Notch > Ok, I'll make their normal run speed slow [...] (21:53:21) < 08Notch > yes, I just updated it. ;)",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100205-1558",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100205-2241",
+        "Version": "0.31",
+        "PVN": "",
+        "Released": "2010-02-05",
+        "Proof": "Minecraft Forum",
+        "Notes": "Has no matching blogpost or IRC log, but seems to suggest an update.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100206-2034",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (20:34:42) < 08Notch > ok, indev's been updated  [Blogpost dates to 20:43]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100206-2103",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-06",
+        "Proof": "Video",
+        "Notes": "The JAR's time is 29 minutes after the other Indev from this day. DBN's logs also show Notch saying arrows crash the game after the previous blog post, and arrows work fine in this version. This means it's not -1.",
+        "MD5": "0E2C849EBD3E716ED110FFD42445F03D",
+        "SHA-256": "0B809A924D1B198ACCBEE2D25E5AE05F6A786BB7A5850F0D26A8C55A211673A7"
+    },
+    {
+        "ID": "in-20100207-1058",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-07",
+        "Proof": "",
+        "Notes": "-2's blog post dates to 3 minutes before our JAR, so a reupload is likely.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100207-1101",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "2521A1A68DD1EDCBE12CB8B2A10E6436",
+        "SHA-256": "A47206A25F490BC5CFB3B3484B86C4F6EBF6475EC559BE9DB7493CA14DAEACC2"
+    },
+    {
+        "ID": "in-20100207-1647",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-07",
+        "Proof": "Minecraft Forum",
+        "Notes": "The reply from Charles445 in this post is before our JAR.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100207-1703",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-07",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "FB33DC093E3629EB4F7D83EFAFCF868D",
+        "SHA-256": "0ED5225D116BA75735A42109D0E5ADCB4C23C7DEECACA6A14E10E3B5A0B075C7"
+    },
+    {
+        "ID": "in-20100211-xxxx",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-11",
+        "Proof": "",
+        "Notes": "DBN's logs: (02:19:14) <Cheeseyx> But he has made 3 updates today  [This is from the 12th, but suggests there were 3 updates on the 11th]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100211-1424",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-11",
+        "Proof": "",
+        "Notes": "Along with the IRC log proof, an AppletLoader file dating to this time has been recovered before suggesting the site and the client was updated at this time.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100211-2337",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100212-1210",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-12",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "AC4EB36820088D2808432FF7C0283DD8",
+        "SHA-256": "C31ED7CA82D5715909F89968CC4C28A45EE10E38C5D8305BD74D21E4D0A43D18"
+    },
+    {
+        "ID": "in-20100212-1622",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8E5EA5CE20EFD90C244E7A87A63AABBA",
+        "SHA-256": "776E5EECF68866AFF927A0EBBEB235761D47B1000EF5E0DAE656B61D688AE3A3"
+    },
+    {
+        "ID": "in-20100213",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "D5CFB89449D2C867FF82401D66CB76F1",
+        "SHA-256": "433AA8D859D15A2901263ACD5D5F03A1A36CE1AB86EF11FD651FD01321E43DB8"
+    },
+    {
+        "ID": "in-20100214",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "EA45CFEBD9C427AD5C99B1D870F65E4B",
+        "SHA-256": "B96AE95859CB9227A9168D11FFDCBCABAC3A2F2BE8D07113D4A5C970A2C8170A"
+    },
+    {
+        "ID": "in-2010021x",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "2010-02-1x",
+        "Proof": "",
+        "Notes": "There is an al_version gap here, and a couple of non-definitive proofs, a release here is likely.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "in-20100218",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "2C9FA5E5C9720433F0B6415C773DDEBB",
+        "SHA-256": "ADD4F8127FF8C2DB102EDD60728C42F9B4F9FBBD07212807AAEA41AA3375CD7B"
+    },
+    {
+        "ID": "in-20100219",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "E95D1ACC81AFC9407C1363AE4CF7D486",
+        "SHA-256": "7289A5C63B06A4E07832799A3652FB3BA94824E42C3B14610A5E84D87CB1F67A"
+    },
+    {
+        "ID": "in-20100223",
+        "Version": "Minecraft Indev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "71E782061FFCD523E2E8C70193552F60",
+        "SHA-256": "C147B2527781FCC244403BB6AD7F4DE846DB5C52079603E2220870303F9A53C4"
+    },
+    {
+        "ID": "ID",
+        "Version": "Version",
+        "PVN": "PVN",
+        "Released": "Released",
+        "Proof": "Proof",
+        "Notes": "Notes",
+        "MD5": "MD5",
+        "SHA-256": "SHA-256"
+    },
+    {
+        "ID": "inf-20100227-1419",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "The proof video shows a pyramid with the top cut off, a bug resulting from changing the map height from 256 to 127 (see PoE). This bug isn't present in our version, proving its existence. Also the blogpost dates to 14 minutes before our JAR,",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100227-1433",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-02-27",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "A92EFBF14C4B0B41FE425E9F4356E007",
+        "SHA-256": "507CECFAD21CAA2E137A00C57D63AC6EBC299CB1191E703F1C49274D53E7FEF3"
+    },
+    {
+        "ID": "inf-20100313",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "The Word of Notch",
+        "Notes": "",
+        "MD5": "241D0E7F5CAEDB18B35D670E38911823",
+        "SHA-256": "4974D31EB0AF16DDBAAA2D81E88943BAEAF8BBC0106A8DB20CDA19F4A824152D"
+    },
+    {
+        "ID": "inf-20100316",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "D8E638AB6C10403BEB300249E531DB7D",
+        "SHA-256": "A363943F5E2C147AB0515930317DD535E9A2229FA0EB952C73FB6F078CFBDA20"
+    },
+    {
+        "ID": "inf-20100320",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8294A5E1385920D322A2AAF71692B8FD",
+        "SHA-256": "7E6B3048A97384397E1ADFB4458EAFD3A0AAE52845B816CFC6F138902DA5E92A"
+    },
+    {
+        "ID": "inf-20100321-1808",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-03-21",
+        "Proof": "",
+        "Notes": "Uniju's logs: (18:08:26) <Icereed> is notch uploading an update?  [...] (18:19:41) <Icereed> infdev update!!!!  [There is also an al_version gap here]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100321-1857",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-03-21",
+        "Proof": "MinecraftForums",
+        "Notes": "",
+        "MD5": "C69562124BDFC4E5893344D86A02529F",
+        "SHA-256": "9DD5ED05F557D508766D8B9D4FD3F77ADC69C1943FD47F51058191AB81FC55BF"
+    },
+    {
+        "ID": "inf-20100325-1545",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "DBN's logs: (15:45:48) < 08Notch > I updated infdev.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100325-1640",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-03-25",
+        "Proof": "",
+        "Notes": "DBN's logs: (17:20:13) <Demki> there is a new update to indev.",
+        "MD5": "96E5ACDC5BD41AB9332D3B6130029DCD",
+        "SHA-256": "1942C49C85167375182B4D181E71F2A199F223AE8F442332C4DBFAA5596C20A0"
+    },
+    {
+        "ID": "inf-20100326",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-03-26",
+        "Proof": "Video",
+        "Notes": "DBN's logs: (23:31:11) <Wrut> update avalaible [...] (23:31:27) <jwill> Update, see if it works. [...] (23:32:23) <Wrut> brb update [There is also an al_version gap here]",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100327",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "2AF9A4D72CDDEFB9274EF8F22EEEA85D",
+        "SHA-256": "C696D187821B9034046E4572DFDB579A60B80530FF02598AADB6322E8AD8B247"
+    },
+    {
+        "ID": "inf-20100330-1203",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Blogpost predates our jar by over 4 hours",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100330-1611",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-03-30",
+        "Proof": "",
+        "Notes": "Texture files were found modified. We overwrote them again with inf-20100327's textures, but the jar is not bit-perfectly original.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-201004xx",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-04-xx",
+        "Proof": "",
+        "Notes": "There are multiple pieces of evidence for a version released here and an al_version gap, but nothing conclusive.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100413",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "362C5A338D67B85356A179B220268317",
+        "SHA-256": "6B9513E811A83CBF81AC57BC0C8D01A02FA3F0A88A284AFE08A5145961002679"
+    },
+    {
+        "ID": "inf-20100414",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "D6BA573194548C3B482390480EFD0186",
+        "SHA-256": "9EB3B22601B3871A4DD8CEC36F4AF9310AE052FD04442DA0590353CAA441079B"
+    },
+    {
+        "ID": "inf-20100415",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "AD761A10B3ED563547C1C5ABB0111889",
+        "SHA-256": "BEF3EADBE765604F0B578BFC757ADC5C73FB4D449AC1A02355C9F7BD1AF97E47"
+    },
+    {
+        "ID": "inf-20100420",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "040722D08FBC1C788A76838B264AC0F9",
+        "SHA-256": "6AC2FD02255322C01341930D50F71015FA501B234F2C8D7CE8C52206D9C2FB17"
+    },
+    {
+        "ID": "inf-20100607",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "436F772319FE5CABCBD1170362F28072",
+        "SHA-256": "C31C923DE4DBC1DCF334E1947EB566FF0046908A69CEE4772631662F228BEC8F"
+    },
+    {
+        "ID": "inf-20100608",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "095F463063A08AFE76D00D9624778EC0",
+        "SHA-256": "4618EEF4C238825DF47489600FF2C2C0B1C772626EA6190C7C6FB49EA39AAF3B"
+    },
+    {
+        "ID": "inf-20100611",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "5B327F143936D8E102353EBB784016D3",
+        "SHA-256": "69BB127AA5E063D6F54622C2C77E828632313AF969FF5540492688015A26C942"
+    },
+    {
+        "ID": "inf-20100615",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "37BC739B7B9567C7BF3AEB4E8E2ED02B",
+        "SHA-256": "ED10C64E420A68F3D61DC7D5DB9D4005E85CE4975555540DF068FCF6C6448199"
+    },
+    {
+        "ID": "inf-20100616-1808",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "The blog post was made at 2010-06-16T18:12:59.",
+        "MD5": "2B60772442A6312736ACD45365F05B0B",
+        "SHA-256": "5F0F0C7D442E45C7467E590573F737306853442854DAE7124E98A643DCA68835"
+    },
+    {
+        "ID": "inf-20100616-2210",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Twitter",
+        "Notes": "The world previewer is a part of the client jar. The world previewer had a severe bug that broke the level.dat file in this version.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "inf-20100617-1205",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "The Word of Notch",
+        "Notes": "The world previewer is a part of the client jar. The bug with the level.dat file was fixed in this version.",
+        "MD5": "47EFC04F279DA3D0B0334D7CD2833ADB",
+        "SHA-256": "2165BEBE20CD54FA67DBE86C8E89D5F597D7A16B45DA7AD794325110DCE5C12A"
+    },
+    {
+        "ID": "inf-20100617-1531",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "40D83ADA92EE0D0804FDA36EAEAD47FF",
+        "SHA-256": "E095146FD099B90F0B8FFAEE515D531AAB719962C2D5AF299BAE4F5555A245A1"
+    },
+    {
+        "ID": "inf-20100618",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "F5F5AA34760FACC10486E906A7C60196",
+        "SHA-256": "26C18BBDB55C0C7F5858A8094CE082A76F28D76E7F6F3A035383129F75A365C0"
+    },
+    {
+        "ID": "inf-20100624",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "8FDFE5C39EA6C7CE97433A4B685E41D7",
+        "SHA-256": "EE7BEB3C0BDD6DACC519B05A5500EACE74C0BEA6B574DF6AB7C86E84908B90B8"
+    },
+    {
+        "ID": "inf-20100625-0922",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "398AC7FC38407A5EEC4302275321EF81",
+        "SHA-256": "0FC42C10D17F4631032BD9F79AD88FC770AEB77995F71FA977AC74CC842096C0"
+    },
+    {
+        "ID": "inf-20100625-1917",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "0980F1FF8463A64AB6684777CC2B6C90",
+        "SHA-256": "68AD8B72C0005AFC8C0A997BA9D1CDB2837B92E288404A3A49275DC73A19439F"
+    },
+    {
+        "ID": "inf-20100627",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "99B4AE8A985A8D8092197484E73EAD06",
+        "SHA-256": "F745303AD13919E3513E2692D446329A9E9D0C84F0EB935D7873E08872C214E2"
+    },
+    {
+        "ID": "inf-20100629",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-06-29",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "5B17A91FB28C1182CB597EB95AC7A8B8",
+        "SHA-256": "B12626492495273CFD356C88839CC35CEDD8C4C7E0AFA26537013AF4F7A20571"
+    },
+    {
+        "ID": "inf-20100630-1340",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "2D7ED9C808DF239486F9CB37AA7436CD",
+        "SHA-256": "92E4969E76CD242A53AE9CA10206ECE9E6596B441FF9896FD9A34B9B61AD072E"
+    },
+    {
+        "ID": "inf-20100630-1835",
+        "Version": "Minecraft Infdev",
+        "PVN": "",
+        "Released": "2010-06-30",
+        "Proof": "Video",
+        "Notes": "#ERROR!",
+        "MD5": "6DF8630F7683F78779260FDD7CE342A9",
+        "SHA-256": "9236FDFE531EB826A6E91AC8DD8E6D65790BBAC1265963BBCCA11DDCDDAEFF0E"
+    },
+    {
+        "ID": "ID",
+        "Version": "Version",
+        "PVN": "PVN",
+        "Released": "Released",
+        "Proof": "Proof",
+        "Notes": "Notes",
+        "MD5": "MD5",
+        "SHA-256": "SHA-256"
+    },
+    {
+        "ID": "a1.0.1",
+        "Version": "Minecraft Alpha v1.0.1",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.1_01",
+        "Version": "Minecraft Alpha v1.0.1_01",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Version file is 1278109196. Converting this to UTC reveals a release date of 2010-07-02 22:19:56.",
+        "MD5": "4EE4573BF828898C00CAD435C66880F1",
+        "SHA-256": "D4A3346CD02E8ABB317AD6F251AC3199B35ED902D619BD20CC49FD26E6E08C26"
+    },
+    {
+        "ID": "a1.0.2",
+        "Version": "Minecraft Alpha v1.0.2",
+        "PVN": "",
+        "Released": "2010-07-06",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.2_01",
+        "Version": "Minecraft Alpha v1.0.2_01",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "#ERROR!",
+        "MD5": "E8DB5D6CDBEFE10256446DE202B16030",
+        "SHA-256": "B758521ED76983A87FA6FE47723F97472FE5C5BFB6BEEB1DD59EB652420432F8"
+    },
+    {
+        "ID": "a1.0.2_02",
+        "Version": "Minecraft Alpha v1.0.2_02",
+        "PVN": "",
+        "Released": "2010-07-0x",
+        "Proof": "#ERROR!",
+        "Notes": "Likely date proof, however the exact version is not mentioned.",
+        "MD5": "3069594D124A535516D54F62FDAB76C5",
+        "SHA-256": "4ED0AE0C02ACE30ECF1934218822222CE5F13F0A05A48AC175BC7F60A18D940B"
+    },
+    {
+        "ID": "a1.0.3",
+        "Version": "Minecraft Alpha v1.0.3",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "ACC948DD717822294B488A94A5F18AE6",
+        "SHA-256": "41FFAB797E99BAB92AE2092E79062FE36A548140383DE28748749B003CFFBD57"
+    },
+    {
+        "ID": "a1.0.4",
+        "Version": "Minecraft Alpha v1.0.4",
+        "PVN": "",
+        "Released": "2010-07-xx",
+        "Proof": "#ERROR!",
+        "Notes": "#ERROR!",
+        "MD5": "CFF05EF61D8DDA2E3005E0D3EE0F06F1",
+        "SHA-256": "EC044ED4C3E9FAE90F8531D60A629709A8E03C4221B641A2451D20B4DA8AAF89"
+    },
+    {
+        "ID": "a1.0.4-launcher",
+        "Version": "Minecraft Alpha v1.0.4",
+        "PVN": "",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "",
+        "MD5": "13CE7935C3670E7494E26B2704BFA3E9",
+        "SHA-256": "E464928FDFC445DE13B91B635D31C1AADF212C656F9D7A9F3AE54DA5C2783F5F"
+    },
+    {
+        "ID": "a1.0.5-2133",
+        "Version": "Minecraft Alpha v1.0.5",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "a1.0.5-2149 dates to 15 minutes after the blog post, which is edited to note that snow no longer falls through glass. Video upload timestamp is 21:44:47, 5 minutes before our jar, proving reupload with absolute certainty.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.5-2149",
+        "Version": "Minecraft Alpha v1.0.5",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "8F48D85347CDD38397DD749E9E4C737E",
+        "SHA-256": "9DD5F95BEF5A4D9AC1B451A113A9585E358DCC1406EACC9177141ED86C5D5A31"
+    },
+    {
+        "ID": "a1.0.5_01",
+        "Version": "Minecraft Alpha v1.0.5_01",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "AE5F606CAA18222E7568819C910EE423",
+        "SHA-256": "5EF06E9C7E0421505E3CECC732F2D192A9E04B5A55840D91418A301BAE375C70"
+    },
+    {
+        "ID": "a1.0.6",
+        "Version": "Minecraft Alpha v1.0.6",
+        "PVN": "10",
+        "Released": "2010-07-1x",
+        "Proof": "#ERROR!",
+        "Notes": "#ERROR!",
+        "MD5": "6C5339C679C7A37999E7892C40F1B4F3",
+        "SHA-256": "A1F55FB7265F4729E995C30D672E4FB6D412FF8B23072194B0AED032B99C05AF"
+    },
+    {
+        "ID": "a1.0.6_01",
+        "Version": "Minecraft Alpha v1.0.6_01",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "",
+        "MD5": "03DA704F79057E9E61491F68967A12C0",
+        "SHA-256": "6988A059399E77AA1BF8472C42EF828DD511EA85C8377AE1024AD604FDB9957B"
+    },
+    {
+        "ID": "a1.0.6_02",
+        "Version": "Minecraft Alpha v1.0.6_02",
+        "PVN": "",
+        "Released": "2010-07-17",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.6_03",
+        "Version": "Minecraft Alpha v1.0.6_03",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "6A172B3BE7447C852AB1FFF0D16E4EC0",
+        "SHA-256": "F7EC06EF2031E77B32F8CD4D438AC4293A3226423A6D5903CEC8634814FC1948"
+    },
+    {
+        "ID": "a1.0.7",
+        "Version": "Minecraft Alpha v1.0.7",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "A914313EB313C903D54FA547B288E817",
+        "SHA-256": "A84FA9D8C59C3542719F37837F96A67A05DAF2BF71D6FA3195D1C9E09877809E"
+    },
+    {
+        "ID": "a1.0.8",
+        "Version": "Minecraft Alpha v1.0.8",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "#ERROR!",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.8_01",
+        "Version": "Minecraft Alpha v1.0.8_01",
+        "PVN": "10",
+        "Released": "2010-07-19",
+        "Proof": "#ERROR!",
+        "Notes": "Jar dates to 2010-07-20, but no release date has been confirmed.",
+        "MD5": "021EB913668D1F628FF22C717D7076B8",
+        "SHA-256": "1E1CDF2F20C696762159D00E79CB4CA081AD47253CCDBF74BFFD721EA037EB67"
+    },
+    {
+        "ID": "a1.0.9",
+        "Version": "Minecraft Alpha v1.0.9",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "2138FE69D70B59701318E9F6EAF188F7",
+        "SHA-256": "09F605CDCC22E315814B8FDEC5E45B571A90111FD99AC7EC30747CB4BE9B2EF0"
+    },
+    {
+        "ID": "a1.0.10",
+        "Version": "Minecraft Alpha v1.0.10",
+        "PVN": "10",
+        "Released": "2010-07-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "BC3D752A72BD3CA4170A94917CDE5219",
+        "SHA-256": "7E293BD165A3645E99418D259C8B100C37B2D47742EF18A92FE5C99C08425DF3"
+    },
+    {
+        "ID": "a1.0.11",
+        "Version": "Minecraft Alpha v1.0.11",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Checksum matches launcher version. Jar dates to 2010-07-23, but no release date has been confirmed.",
+        "MD5": "6F1B1DD157FA0DF39760F5BE3EAB01B0",
+        "SHA-256": "A11120202E2AE0B474A60C2944B03CC5DAC5C6D659A0926F8C881619DE70C17C"
+    },
+    {
+        "ID": "a1.0.12",
+        "Version": "Minecraft Alpha v1.0.12",
+        "PVN": "11",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "",
+        "MD5": "AAC4762D2B0A2DE78A4DF29C90F49045",
+        "SHA-256": "005E5052D90B70E8F9874A81948D6EE09827C5E1FF61D5213C18AAE254BF9254"
+    },
+    {
+        "ID": "a1.0.13",
+        "Version": "Minecraft Alpha v1.0.13",
+        "PVN": "12",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "0C15C54CAF884DA7A7B19A94DE274419",
+        "SHA-256": "2F18856CB57D12DB55115B54291D10E42AABAAFE8A3FE1B0429E81C1CC7882F8"
+    },
+    {
+        "ID": "a1.0.13_01-1035",
+        "Version": "Minecraft Alpha v1.0.13_01",
+        "PVN": "",
+        "Released": "2010-07-29",
+        "Proof": "",
+        "Notes": "Blogpost dates 3 minutes before our jar's compile time indicating a possible reupload",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.13_01-1038",
+        "Version": "Minecraft Alpha v1.0.13_01",
+        "PVN": "12",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "7D331293919B05ECE25B7C093282D504",
+        "SHA-256": "B29612EE5DC54B1282379ADE828EC74FA40F048BEFB307BF7C50528812B6808D"
+    },
+    {
+        "ID": "a1.0.13_01-1444",
+        "Version": "Minecraft Alpha v1.0.13_01",
+        "PVN": "12",
+        "Released": "2010-07-29",
+        "Proof": "#ERROR!",
+        "Notes": "The logo on the title screen is replaced with ''1K IN 24h''.",
+        "MD5": "EA8D038894A02C893846E943C88C242E",
+        "SHA-256": "1DDD7F1CAC4B155E0D9121E190EDB7FB955BCD5A3A15C71E61A5E15CAFDF585D"
+    },
+    {
+        "ID": "a1.0.14-1603",
+        "Version": "Minecraft Alpha v1.0.14",
+        "PVN": "12",
+        "Released": "2010-07-30",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "87CE857D5D2FAC60CA2565D16659BA96",
+        "SHA-256": "49CDEC4BE20E799A56E95E7F04A9EC88E2D0E2CC1B7BDBF47273F5429EE363CB"
+    },
+    {
+        "ID": "a1.0.14-1659",
+        "Version": "Minecraft Alpha v1.0.14",
+        "PVN": "12",
+        "Released": "2010-07-30",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "F99B2F8E44405750A5171ED9A97B6860",
+        "SHA-256": "1138CA27BCAD71F1FD9B7C429F133D849B615DFEA8CF58FC2AD356E8D46F1C1F"
+    },
+    {
+        "ID": "a1.0.14-1659-launcher",
+        "Version": "Minecraft Alpha v1.0.14",
+        "PVN": "12",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "",
+        "MD5": "227D0C6FA896A231DE6269A074C9A458",
+        "SHA-256": "0859315D26DAB43E004454F19F51301351E826ACF3FFAED636D7D2A5F6D5A584"
+    },
+    {
+        "ID": "a1.0.15",
+        "Version": "Minecraft Alpha v1.0.15",
+        "PVN": "13",
+        "Released": "2010-08-03",
+        "Proof": "#ERROR!",
+        "Notes": "Blog post erroneously calls it ''Alpha v1.0.14''. Checksum matches the launcher version. Version file is 1280861245. Converting this to UTC reveals a release date of 2010-08-03 18:47:25.",
+        "MD5": "ADE257D2080D56FA983763F9C701FA14",
+        "SHA-256": "C9018315807056C610A30FF08D6D9515712A50997D6C06FF7D923676D61E87CE"
+    },
+    {
+        "ID": "a1.0.16",
+        "Version": "Minecraft Alpha v1.0.16",
+        "PVN": "14",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "6BBDE02C13AED5766275F4398EDE6AAE",
+        "SHA-256": "FD14110691B14EA51F9320A949E2B3C1855E38AF2668BF4E743C19B08DE00234"
+    },
+    {
+        "ID": "a1.0.16_01",
+        "Version": "Minecraft Alpha v1.0.16_01",
+        "PVN": "14",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "",
+        "MD5": "4A7468C28C037F3E48E517EBD1951F14",
+        "SHA-256": "8367BF50432495DFD2C27C08936396EB351CFACC19827C4D3C37378B21A96B3A"
+    },
+    {
+        "ID": "a1.0.16_02",
+        "Version": "Minecraft Alpha v1.0.16_02",
+        "PVN": "14",
+        "Released": "2010-08-13",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "A340C938BAD440EB7FA2FB0F1B775376",
+        "SHA-256": "E2D32C42CC86D6F951952A4A6A4FEE71A34446AC126B5352A6E510AD53DEFEE1"
+    },
+    {
+        "ID": "a1.0.17",
+        "Version": "Minecraft Alpha v1.0.17",
+        "PVN": "",
+        "Released": "2010-08-xx",
+        "Proof": "#ERROR!",
+        "Notes": "#ERROR!",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.17_01",
+        "Version": "Minecraft Alpha v1.0.17_01",
+        "PVN": "",
+        "Released": "2010-08-xx",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.0.17_02",
+        "Version": "Minecraft Alpha v1.0.17_02",
+        "PVN": "1",
+        "Released": "2010-08-20",
+        "Proof": "#ERROR!",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "D89760B0871EF61A55C9F336C0439D58",
+        "SHA-256": "9505E19F30B79CE2964504DE29594E18AFEED7FB5DCB3F0960177705880DDE0E"
+    },
+    {
+        "ID": "a1.0.17_03",
+        "Version": "Minecraft Alpha v1.0.17_03",
+        "PVN": "1",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "6CCB28275E34E65707EBF699D9A77524",
+        "SHA-256": "EBC52B1265E98C0436039357F9030ED93DE3C6D25B44FB1CBC0EAE7DEE37ACF7"
+    },
+    {
+        "ID": "a1.0.17_04",
+        "Version": "Minecraft Alpha v1.0.17_04",
+        "PVN": "1",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "16ED7DC58244772847991E504AFCF02F",
+        "SHA-256": "34105933DA180843E575909978246FB373F2DB53B00905B92C8110CD19FAD6F2"
+    },
+    {
+        "ID": "a1.1.0-101847",
+        "Version": "Minecraft Alpha v1.1.0",
+        "PVN": "2",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "42A922A945A50D871ACF324FE272DF53",
+        "SHA-256": "38E2E42CB49F5CF1E31A561A3EB6FB969ADC94196722FD45CE535FD18319DF7F"
+    },
+    {
+        "ID": "a1.1.0-101847-launcher",
+        "Version": "Minecraft Alpha v1.1.0",
+        "PVN": "2",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "It's identical to a1.1.0-1, but the dates are different.",
+        "MD5": "891FD93E04F5DAAF35D73C58E45C01B1",
+        "SHA-256": "0723B15A4B56B202A46574F2BF039DA2760F838E8EA3CE5AAC683B26DBF38E8E"
+    },
+    {
+        "ID": "a1.1.0-131933",
+        "Version": "Minecraft Alpha v1.1.0",
+        "PVN": "2",
+        "Released": "2010-09-13",
+        "Proof": "Screenshot",
+        "Notes": "The sound engine is changed slightly, and F3+S reloads the sound engine.",
+        "MD5": "669D38A8A95D3411611ECDCC1FF4A189",
+        "SHA-256": "042E8238A07D8068720D11E26323CA5C0BB67F47E5BC1A3B5AB19F5977BC492F"
+    },
+    {
+        "ID": "a1.1.1",
+        "Version": "Minecraft Alpha v1.1.1",
+        "PVN": "2",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "#ERROR!",
+        "MD5": "6EB65CFBE35B70744DE8768838D73C0B",
+        "SHA-256": "7F45F07B08EDE092175A84DFC0CBE013D93C22769149D1189BE2EBE5B67A0B45"
+    },
+    {
+        "ID": "a1.1.2",
+        "Version": "Minecraft Alpha v1.1.2",
+        "PVN": "2",
+        "Released": "2010-09-18",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "72BA1F834327805CB44164A42B331522",
+        "SHA-256": "6BEAEE2C909ED33591A985AB6BD03D6962958C0B3D0AEB7A7A3CC144ADF7F50D"
+    },
+    {
+        "ID": "a1.1.2_01",
+        "Version": "Minecraft Alpha v1.1.2_01",
+        "PVN": "2",
+        "Released": "2010-09-23",
+        "Proof": "#ERROR!",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "94346E1B8F6AD0E4A284314F0E29207B",
+        "SHA-256": "167A9CEF74EB60417AB9670DF10953634C0DBA8371EBAE1E44588E0BA0A7B07D"
+    },
+    {
+        "ID": "a1.2.0",
+        "Version": "Minecraft Alpha v1.2.0",
+        "PVN": "3",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "The version labelled a1.2.0 on the launcher is actually a1.2.0_02 (a1.2.0_02-launcher).",
+        "MD5": "0A89A66BAF85E09ABF43C40AF91C8772",
+        "SHA-256": "C123E8654F1975711B5E54A45E03CFE75D16CBCEF7BBED402A7F5E95B7A46E22"
+    },
+    {
+        "ID": "a1.2.0_01",
+        "Version": "Minecraft Alpha v1.2.0_01",
+        "PVN": "3",
+        "Released": "2010-10-31",
+        "Proof": "#ERROR!",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "B2E9333E967CB89488884C2E5C715D4F",
+        "SHA-256": "E658A3A6ECEAC9EED89BD1E2A00768F72DD5AA8AD085FDE59A9E1CFF2F3C43B9"
+    },
+    {
+        "ID": "a1.2.0_02",
+        "Version": "Minecraft Alpha v1.2.0_02",
+        "PVN": "3",
+        "Released": "2010-10-31",
+        "Proof": "#ERROR!",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "F5BCB4D0C0E78BC220F164B89AE9BD60",
+        "SHA-256": "CB4D712CBBE51A6A8B375CA771FDC4FF3FC70BC7BDD640E53A020AE7E687AF56"
+    },
+    {
+        "ID": "a1.2.0_02-launcher",
+        "Version": "Minecraft Alpha v1.2.0_02",
+        "PVN": "",
+        "Released": "2013-08-06",
+        "Proof": "Launcher",
+        "Notes": "The version labelled a1.2.0 on the launcher is actually a1.2.0_02 (a1.2.0_02-launcher).",
+        "MD5": "44C384DAE02390F700458B95D82C3E2A",
+        "SHA-256": "2139AF187A74E4C60AF45110665F38777FE6DF07DA0B72930FA08245C732E149"
+    },
+    {
+        "ID": "a1.2.1",
+        "Version": "Minecraft Alpha v1.2.1",
+        "PVN": "",
+        "Released": "#ERROR!",
+        "Proof": "Screenshot",
+        "Notes": "The version labelled a1.2.1 on the launcher is actually a1.2.1_01.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.2.1_01",
+        "Version": "Minecraft Alpha v1.2.1_01",
+        "PVN": "3",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "0A496E44A7B4E2F493B5893D8E5845BD",
+        "SHA-256": "7EAB51320F26CF68FF9B06FCF34B64EE60AA7AA0EE5C0421E8FB0A265E811C18"
+    },
+    {
+        "ID": "a1.2.2-1617",
+        "Version": "Minecraft Alpha v1.2.2",
+        "PVN": "",
+        "Released": "2010-11-10",
+        "Proof": "",
+        "Notes": "Blogpost dates to 7 minutes before our jar's compile time, indicating a possible reupload",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.2.2-1624",
+        "Version": "Minecraft Alpha v1.2.2",
+        "PVN": "4",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "The launcher calls it a1.2.2a. Checksum matches launcher version. The proof blog post oddly dates to before either v1.2.2 jar.",
+        "MD5": "0F9FE018B344FD9DD849005F9BDCA803",
+        "SHA-256": "054C311B6AC2181F8D362D579AB8D3992EBFF1867F19C480191E417C030E531A"
+    },
+    {
+        "ID": "a1.2.2-1938",
+        "Version": "Minecraft Alpha v1.2.2",
+        "PVN": "4",
+        "Released": "2010-11-10",
+        "Proof": "Video",
+        "Notes": "The launcher calls it a1.2.2b. Checksum matches launcher version.",
+        "MD5": "6250FB17F8898C4D970D6BD03C229177",
+        "SHA-256": "FE33A245D0C1A995FFC82F2673436029FD0C4F04B9597FA094A1FD6157CD65D7"
+    },
+    {
+        "ID": "a1.2.3",
+        "Version": "Minecraft Alpha v1.2.3",
+        "PVN": "5",
+        "Released": "2010-11-24",
+        "Proof": "",
+        "Notes": "Checksum matches launcher version.This blog post matches the jar's compile time, though the specific version isn't mentioned.",
+        "MD5": "25F053114E34B915E675F82D58F08711",
+        "SHA-256": "76B99D9A0D884BB0DE99257740FD391C319ABEBC2EC30174A39BB63E5EBE69B1"
+    },
+    {
+        "ID": "a1.2.3_01-0938",
+        "Version": "Minecraft Alpha v1.2.3_01",
+        "PVN": "",
+        "Released": "2010-11-24",
+        "Proof": "",
+        "Notes": "DBN's logs: (09:38:09) < 08Notch > the update should be done now! [...] (09:59:40) < 08Notch > uploading a new client to fix the leaf crash bug thing",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.2.3_01-0958",
+        "Version": "Minecraft Alpha v1.2.3_01",
+        "PVN": "5",
+        "Released": "2010-11-24",
+        "Proof": "#ERROR!",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "70CBAB762B17C5B11FEFEA9B12564119",
+        "SHA-256": "17C0463E56800AA257DE3E76011D7F3DB015B44FE2F3E846275FCEE7F6129571"
+    },
+    {
+        "ID": "a1.2.3_02",
+        "Version": "Minecraft Alpha v1.2.3_02",
+        "PVN": "5",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "3AD4808EF2AC3B65D10305315260DA03",
+        "SHA-256": "BC23D23764761484472060A49353598BBAA33D574E6953015E75E192E03BB9F9"
+    },
+    {
+        "ID": "a1.2.3_03",
+        "Version": "Minecraft Alpha v1.2.3_03",
+        "PVN": "",
+        "Released": "2010-11-2x",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.2.3_04",
+        "Version": "Minecraft Alpha v1.2.3_04",
+        "PVN": "5",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "B2C25A753C82A1CD228CE71469829DC1",
+        "SHA-256": "E80E49D2EA895198FCD2D3866E4541A4D464AA5263F3923D540CBAF1053F9EB9"
+    },
+    {
+        "ID": "a1.2.3_05",
+        "Version": "Minecraft Alpha v1.2.3_05",
+        "PVN": "6",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "a1.2.3_05 is probably what Notch referred to as a1.2.4.",
+        "MD5": "9C3C7A6298ECDC0C1D8BBB2DB9A7117D",
+        "SHA-256": "107676C455F32DE501C43C18A00E11762096A8ECFBEA4828AF5B3CA6805BDB25"
+    },
+    {
+        "ID": "a1.2.4",
+        "Version": "Minecraft Alpha v1.2.4",
+        "PVN": "",
+        "Released": "2010-11-30",
+        "Proof": "",
+        "Notes": "People talked about how Notch made a typo with the version number for a1.2.3_05. The only ''proof'' of a1.2.4 we have is Notch's blog mentioning it, but he was most likely referring to a1.2.3_05.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "a1.2.4_01",
+        "Version": "Minecraft Alpha v1.2.4_01",
+        "PVN": "6",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "0A1CC8C668FAA6DC93FC418E8B4B097A",
+        "SHA-256": "047A05550DE80C186A3F23D7C4C8B25056DCC0A775E73F4E4D919F39D8BD1C37"
+    },
+    {
+        "ID": "a1.2.5",
+        "Version": "Minecraft Alpha v1.2.5",
+        "PVN": "6",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "7D3A43037190970FF2E11153B5718B74",
+        "SHA-256": "FDDE933363DF3A1D95A76D180DBDB14464F8390F954D272613ED25CE42155787"
+    },
+    {
+        "ID": "a1.2.6",
+        "Version": "Minecraft Alpha v1.2.6",
+        "PVN": "6",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "Checksum matches launcher version.",
+        "MD5": "DDD5E39467F28D1EA1A03B4D9E790867",
+        "SHA-256": "63276BF2617068FFBAF2A1992D1F06F9339C96C21991EAFC9583D5F3E7074B9C"
+    },
+    {
+        "ID": "ID",
+        "Version": "Version",
+        "PVN": "PVN",
+        "Released": "Released",
+        "Proof": "Proof",
+        "Notes": "Notes",
+        "MD5": "MD5",
+        "SHA-256": "SHA-256"
+    },
+    {
+        "ID": "b1.0",
+        "Version": "Minecraft Beta 1.0",
+        "PVN": "7",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "5F8733DBBF09B4E7C874661A3C29C239",
+        "SHA-256": "AD62DF9CC678BFA15FF981F56AA8AA7AD0D60A1E584C39B981F9EC089ED450F0"
+    },
+    {
+        "ID": "b1.0_01",
+        "Version": "Minecraft Beta 1.0_01",
+        "PVN": "7",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "03BD20B870DBBD121DE5DCA98AF4E1CE",
+        "SHA-256": "61829173CE6D311246DB4F68BF649BAB5EF9F8E29C436CD7C9F2AE494DB7F1BB"
+    },
+    {
+        "ID": "b1.0.2",
+        "Version": "Minecraft Beta 1.0.2",
+        "PVN": "7",
+        "Released": "2010-12-21",
+        "Proof": "Video",
+        "Notes": "This version breaks the numbering convention; neither b1.0_02 nor b1.0.1 exist.",
+        "MD5": "D200C465B8C167CC8DF6537531FC9A48",
+        "SHA-256": "82E28D25B493ADE968CC0015E5B1C2E9145BBBE247D7F1EA7D603E7DDFE056BD"
+    },
+    {
+        "ID": "b1.1-1245",
+        "Version": "Minecraft Beta 1.1",
+        "PVN": "7",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Text does not render.",
+        "MD5": "FA89B599AB693379D5FC18AB8B5A2EA0",
+        "SHA-256": "C89AD506D6884E3BBDC23A4A083EA6F84D75AA6F19F14D0FCD28FB0F968A048A"
+    },
+    {
+        "ID": "b1.1-1255",
+        "Version": "Minecraft Beta 1.1",
+        "PVN": "7",
+        "Released": "2010-12-22",
+        "Proof": "#ERROR!",
+        "Notes": "Text does not render.",
+        "MD5": "748A4C42092BA230D95946F22FE9BB42",
+        "SHA-256": "E317DCA6C3716C378B6BDCFA7E8BAF416D62348802741CC440CFAF86062DB821"
+    },
+    {
+        "ID": "b1.1_01",
+        "Version": "Minecraft Beta 1.1_01",
+        "PVN": "7",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "The text bug is fixed.",
+        "MD5": "1F9331F2BFCA81B6CE2ACDFC1F105837",
+        "SHA-256": "F5A4CF4B631C67CAFC490DCB43C17DBBAB0383D3EC1FFB946F0EB217374A8368"
+    },
+    {
+        "ID": "b1.1_02",
+        "Version": "Minecraft Beta 1.1_02",
+        "PVN": "8",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "7D547E495A770C62054EF136ADD43034",
+        "SHA-256": "3439C894641B07BB1B31B89209E9DC5818755353D1F646EE48E583610D6670F1"
+    },
+    {
+        "ID": "b1.2",
+        "Version": "Minecraft Beta 1.2",
+        "PVN": "8",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "6426223EFE23C3931A4EF89685BE3349",
+        "SHA-256": "A0996C12B0BFD5A9C85A03542CECF02F573F4CD4DD60F16B05323E897750CC9C"
+    },
+    {
+        "ID": "b1.2_01",
+        "Version": "Minecraft Beta 1.2_01",
+        "PVN": "8",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "486D83EC00554B45FFA21AF2FAA0116A",
+        "SHA-256": "55DF77CA089BAA030C5A4E62905EA78F755485EA3A8E968A2E0FF549BFE13BC0"
+    },
+    {
+        "ID": "b1.2_02",
+        "Version": "Minecraft Beta 1.2_02",
+        "PVN": "8",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "08B37BCA14ACAEC18D9B9EFCFA0BAAF0",
+        "SHA-256": "74676F472031881D12F8685D97CE1DE672202DB8AB5D346066E1AFC3D80826C3"
+    },
+    {
+        "ID": "b1.2_02-launcher",
+        "Version": "Minecraft Beta 1.2_02",
+        "PVN": "8",
+        "Released": "",
+        "Proof": "Launcher",
+        "Notes": "All files are identical as in b1.2_02, except it's missing META-INF.",
+        "MD5": "1736C5BA4F63A981220C2A18A4120180",
+        "SHA-256": "C803CD9C4A0815B98317EFAEE3DCC84863049A5A3B5D250C56776669C8996131"
+    },
+    {
+        "ID": "b1.3-1647",
+        "Version": "Minecraft Beta 1.3",
+        "PVN": "9",
+        "Released": "2011-02-22",
+        "Proof": "",
+        "Notes": "There is a server jar found with this timestamp. Possible proof.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "b1.3-1713",
+        "Version": "Minecraft Beta 1.3",
+        "PVN": "9",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "The player first spawns with extra items in new worlds.",
+        "MD5": "92BC45CE9CE338A2F4CF78C124503E69",
+        "SHA-256": "791E37BC5DEC287F4F5D76C47F40D51744360FB3991A03610B9396CB28D55539"
+    },
+    {
+        "ID": "b1.3-1731",
+        "Version": "Minecraft Beta 1.3",
+        "PVN": "9",
+        "Released": "#ERROR!",
+        "Proof": "Twitter",
+        "Notes": "There is a server jar with this timestamp, and Notch posted on Twitter at 17:36 saying to redownload.",
+        "MD5": "",
+        "SHA-256": ""
+    },
+    {
+        "ID": "b1.3-1750",
+        "Version": "Minecraft Beta 1.3",
+        "PVN": "9",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "The launcher calls it b1.3b. The player no longer spawns with extra items.",
+        "MD5": "DE2164DF461D028229ED2E101181BBD4",
+        "SHA-256": "335ED6E306324BA4B7EB8AE16479839AE5678F0C1DA62757E515D640801E1159"
+    },
+    {
+        "ID": "b1.3_01",
+        "Version": "Minecraft Beta 1.3_01",
+        "PVN": "9",
+        "Released": "2011-02-23",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "4203826F35E1036F089919032C3D19D1",
+        "SHA-256": "E993B789DD450E1538667DEF644E1376BD702FE26EEBEC3197598D5157042684"
+    },
+    {
+        "ID": "b1.4-1507",
+        "Version": "Minecraft Beta 1.4",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "It contains unused stats-related code. The jar had a comment in it, which was removed cleanly to produce a bit-perfectly original jar.",
+        "MD5": "14B273AF7A4AC09377F5960F89B4BDD3",
+        "SHA-256": "7FE514611702C8E4AE490BAD353FDB12167E33AFD0E45DD9CD251C3FC66E4440"
+    },
+    {
+        "ID": "b1.4-1634",
+        "Version": "Minecraft Beta 1.4",
+        "PVN": "10",
+        "Released": "2011-03-31",
+        "Proof": "Video",
+        "Notes": "Some of the unused stats-related code was removed. This file results in a false positive in some malware scanners (archive.org's included), however there is definitely no malware as shown in this diff (also, b1.4-2 is the version in the launcher, and it's very unlikely Mojang would distribute malware).",
+        "MD5": "71E64B61175B371ED148B385F2D14EBF",
+        "SHA-256": "C48C430CB60D3197CA4B9C0AA33821EA56FA10EDBA5A10A46B77AA46883A6908"
+    },
+    {
+        "ID": "b1.4_01",
+        "Version": "Minecraft Beta 1.4_01",
+        "PVN": "10",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "9379E54B581BA4EF3ACC3E326E87DB91",
+        "SHA-256": "36170E61A2CE9DCB6DDA5AF63440070D1BAD82C0846D779F25C2FB0BDC14992E"
+    },
+    {
+        "ID": "b1.5",
+        "Version": "Minecraft Beta 1.5",
+        "PVN": "11",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "24289130902822D73F8722B52BC07CDB",
+        "SHA-256": "D99CBA867ACC5AABF383F8252F047D5D1E9AFB4F531C9B7205D1B845CD4FA7F0"
+    },
+    {
+        "ID": "b1.5_01",
+        "Version": "Minecraft Beta 1.5_01",
+        "PVN": "11",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "b1.5_02 is a server-only version (see the servers sheet).",
+        "MD5": "D02FA9998E30693D8D989D5F88CF0040",
+        "SHA-256": "088E96109679889C62CF8A91C499BC44CA292252872C242FFEFCAD95BE077618"
+    },
+    {
+        "ID": "b1.6",
+        "Version": "Minecraft Beta 1.6",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "D531E221227A65392259D3141893280D",
+        "SHA-256": "A084D22EA2C872A564EBEF4E5B99BE9EC0727E3F7BE6CFB4F6CB2F9DEA4522F8"
+    },
+    {
+        "ID": "b1.6.1",
+        "Version": "Minecraft Beta 1.6.1",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "A7E82C441A57EF4068C533F4D777336A",
+        "SHA-256": "5108CDC9F7F9C5514AD2D16EE1B2A7BBFAAA13F1816AAFDCD24E9EE975A4707A"
+    },
+    {
+        "ID": "b1.6.2",
+        "Version": "Minecraft Beta 1.6.2",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "",
+        "MD5": "01330B1C930102A683A4DD8D792E632E",
+        "SHA-256": "B3A6CFF53774E1C0F7E9FAEE014F49728B72A7B1D1301FC9D39EB12CC20FC310"
+    },
+    {
+        "ID": "b1.6.3",
+        "Version": "Minecraft Beta 1.6.3",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "EFC2BECCA965E4F8FEB5B4210C6A4FD1",
+        "SHA-256": "A88794D52654321527669AC38CB39764AB41CEF804AD98EAE8E7E00861BF845F"
+    },
+    {
+        "ID": "b1.6.4",
+        "Version": "Minecraft Beta 1.6.4",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "5C4DF6F120336F113180698613853DBA",
+        "SHA-256": "02D02CD94905C4A2C771B6C1696D236CB38150600A3DFB9946393D3E1431DF0D"
+    },
+    {
+        "ID": "b1.6.5",
+        "Version": "Minecraft Beta 1.6.5",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "2ABA888864B32038C8D22EE5DF71B7C8",
+        "SHA-256": "B203D6D62F5B97671D262D88C7BF8891B8501B401FE9ABABC9E4EE2D960CD0A8"
+    },
+    {
+        "ID": "b1.6.6",
+        "Version": "Minecraft Beta 1.6.6",
+        "PVN": "13",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "CE80072464433CD5B05D505AA8FF29D1",
+        "SHA-256": "7764CB6CD9832D3B270D749A9EBF44E5EC8297FAF5F14753146AB70CBD316B66"
+    },
+    {
+        "ID": "b1.7",
+        "Version": "Minecraft Beta 1.7",
+        "PVN": "14",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "682419E9ED1A236C3067822D53CDA1E4",
+        "SHA-256": "43EFDD70AC7C7B1B7D5C2CCB6C1AAD8D9FB7AF110187FB4D1070B21D04648B7C"
+    },
+    {
+        "ID": "b1.7_01",
+        "Version": "Minecraft Beta 1.7_01",
+        "PVN": "14",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "This version breaks the numbering convention; b1.7.1 doesn't exist.",
+        "MD5": "DEFC33265DFBB21AFB37DA7C400800E9",
+        "SHA-256": "DB5A993DB56382A88489D309357105E30F76382C45733DFE2614D8F6367D64DB"
+    },
+    {
+        "ID": "b1.7.2",
+        "Version": "Minecraft Beta 1.7.2",
+        "PVN": "14",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "DD9215AB1141170D4871F42BFF4AB302",
+        "SHA-256": "16C8F63BE9E5039F2CE974974A5688D772E93C9DBA53731DEAC4B2434EFB8D12"
+    },
+    {
+        "ID": "b1.7.3",
+        "Version": "Minecraft Beta 1.7.3",
+        "PVN": "14",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "EAE3353FDAA7E10A59B4CB5B45BFA10D",
+        "SHA-256": "AF1FA04B8006D3EF78C7E24F8DE4AA56F439A74D7F314827529062D5BAB6DB4C"
+    },
+    {
+        "ID": "b1.8",
+        "Version": "Minecraft Beta 1.8",
+        "PVN": "17",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "A59A9FD4C726A573B0A2BDD10D857F59",
+        "SHA-256": "5D861A5AE1ADA4F659905DFDE3FF76859A8FD687B2B040B2CC97B0E4E43D9358"
+    },
+    {
+        "ID": "b1.8.1",
+        "Version": "Minecraft Beta 1.8.1",
+        "PVN": "17",
+        "Released": "#ERROR!",
+        "Proof": "Video",
+        "Notes": "A screenshot of ''Minecraft Beta 1.9'' exists, but was part of a developer log.",
+        "MD5": "F8C5A2CCD3BC996792BBE436D8CC08BC",
+        "SHA-256": "3A61A9CB5B8B6CADE30A8BFE21F6793122C7349D0C3BBE1CD0FC2A93ADD36F4A"
+    },
+    {
+        "ID": "ID",
+        "Version": "Version",
+        "PVN": "PVN",
+        "Released": "Released",
+        "Proof": "Proof",
+        "Notes": "Notes",
+        "MD5": "MD5",
+        "SHA-256": "SHA-256"
+    },
+    {
+        "ID": "1.0.0",
+        "Version": "Minecraft 1.0.0",
+        "PVN": "22",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "This version breaks the numbering convention; 1.0, 1.1.0, etc. do not exist.",
+        "MD5": "3820D222B95D0B8C520D9596A756A6E6",
+        "SHA-256": "136E3DD54454E96175BADF50BEE2CDEBDAB9E7D66FEE4FD6D135F39EAD99EB58"
+    },
+    {
+        "ID": "1.1",
+        "Version": "Minecraft 1.1",
+        "PVN": "23",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "1.0.1 is a server-only version (see the servers sheet).",
+        "MD5": "E92302D2ACDBA7C97E0D8DF1E10D2006",
+        "SHA-256": "E065E9681462AA1B78F3CC589BA880D9AAE51994BCD4AF8C67BCAB5C47391CA0"
+    },
+    {
+        "ID": "1.2.1",
+        "Version": "Minecraft 1.2.1",
+        "PVN": "28",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "97067A603EBA2B6EB75D3194F81F6BCD",
+        "SHA-256": "3C519CE303504C2F112F6D2F94F81CF1570C83CE81348DF7DB93ADA317E33054"
+    },
+    {
+        "ID": "1.2.2",
+        "Version": "Minecraft 1.2.2",
+        "PVN": "28",
+        "Released": "#ERROR!",
+        "Proof": "Twitter",
+        "Notes": "",
+        "MD5": "6189E96EFAEA11E5164B4A4755574324",
+        "SHA-256": "5CC415005ABC4931238C1AF056F7F7AA650990951A58142D7EE855532B2B0FD8"
+    },
+    {
+        "ID": "1.2.3",
+        "Version": "Minecraft 1.2.3",
+        "PVN": "28",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "12F6C4B1BDCC63F029E3C088A364B8E4",
+        "SHA-256": "EA15A60614F96A6BB9AECF865DE213635C62D664124092D84BCE240622C4A9D3"
+    },
+    {
+        "ID": "1.2.4",
+        "Version": "Minecraft 1.2.4",
+        "PVN": "29",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "25423EAB6D8707F96CC6AD8A21A7250A",
+        "SHA-256": "ECE050B625D1836A035197ED312DC59CAF26429F4B386C81BDD84CDFF3CA80CB"
+    },
+    {
+        "ID": "1.2.5",
+        "Version": "Minecraft 1.2.5",
+        "PVN": "29",
+        "Released": "#ERROR!",
+        "Proof": "Twitter",
+        "Notes": "Headache Type 3, see information sheet. (1.2.5-pre)",
+        "MD5": "8E8778078A175A33603A585257F28563",
+        "SHA-256": "C1C3740A912EF523A8BD46605AB5708643498330140CBA175C7CE6F177E468E1"
+    },
+    {
+        "ID": "1.3.1",
+        "Version": "Minecraft 1.3.1",
+        "PVN": "39",
+        "Released": "#ERROR!",
+        "Proof": "Twitter",
+        "Notes": "Headache Type 3, see information sheet. (1.3.1-pre)",
+        "MD5": "266CCBC9798AFD2EADF3D6C01B4C562A",
+        "SHA-256": "26A5586A1DD5555E918813284AB6CF05AF1FB997F66B99C93035B03CA066CC52"
+    },
+    {
+        "ID": "1.3.2",
+        "Version": "Minecraft 1.3.2",
+        "PVN": "39",
+        "Released": "#ERROR!",
+        "Proof": "Twitter",
+        "Notes": "Headache Type 3, see information sheet. (1.3.2-pre)",
+        "MD5": "969699F13E5BBE7F12E40AC4F32B7D9A",
+        "SHA-256": "24EC25082CF2BAFAD90518B5E24D23FDFEC55F1BFF7F2EAD391AB40501EB8354"
+    },
+    {
+        "ID": "1.4.2",
+        "Version": "Minecraft 1.4.2",
+        "PVN": "47",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.4.2-pre)",
+        "MD5": "771175C01778EA67395BC6919A5A9DC5",
+        "SHA-256": "199F44E06DFBC20567F9B6DB0A965776B38208359A62956B43906BDC51118CF2"
+    },
+    {
+        "ID": "1.4.4",
+        "Version": "Minecraft 1.4.4",
+        "PVN": "49",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.4.4-pre)",
+        "MD5": "7AA46C8058CBA2F38E9D2DDDDCC77C72",
+        "SHA-256": "9E155EC17C574488C0BF361AEDB1C485D1F08B31FA9D21DDCBCDD441A0D41F53"
+    },
+    {
+        "ID": "1.4.5",
+        "Version": "Minecraft 1.4.5",
+        "PVN": "49",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.4.5-pre-172128) The timestamp of full 1.4.5 on assets.minecraft.net is before the version file for it, meaning 1.4.5-pre-172128 was used for the full release.",
+        "MD5": "B15E2B2B6B4629F0D99A95B6B44412A0",
+        "SHA-256": "B7F06F2019CCFE5D8AAF7E4FB5F5E8E2BDC3CE6509C4AB4F559A5CE4FFE011A8"
+    },
+    {
+        "ID": "1.4.6",
+        "Version": "Minecraft 1.4.6",
+        "PVN": "51",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "#ERROR!",
+        "MD5": "48677DC4C2B98C29918722B5AB27B4FD",
+        "SHA-256": "C4BB5FD8F98AC7160B34FFF7A65F809E0930EE39C5D94F463F0884A6477B25CA"
+    },
+    {
+        "ID": "1.4.7",
+        "Version": "Minecraft 1.4.7",
+        "PVN": "51",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.4.7-pre)",
+        "MD5": "8E80FB01B321C6B3C7EFCA397A3EEA35",
+        "SHA-256": "C5F4972BD775E03B1D3A1255D962FFC00F8C1F6AD98A30A149D5F107153C0DA6"
+    },
+    {
+        "ID": "1.5",
+        "Version": "Minecraft 1.5",
+        "PVN": "60",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.5-pre-121221)",
+        "MD5": "FD11CBC5B01AAE1D62CFF0145171F3D9",
+        "SHA-256": "4AD020A9C3FD95850370A45EA3511A8FD98728F7DFFDA68007CA2E99276B67C4"
+    },
+    {
+        "ID": "1.5.1",
+        "Version": "Minecraft 1.5.1",
+        "PVN": "60",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.5.1-pre-03200938)",
+        "MD5": "5C1219D869B87D233DE3033688EC7567",
+        "SHA-256": "E3164AE3A18954B0E09AEFA20AFD9C6713D9CA3B63D603FC8AE2502026149922"
+    },
+    {
+        "ID": "1.5.2",
+        "Version": "Minecraft 1.5.2",
+        "PVN": "61",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "Headache Type 3, see information sheet. (1.5.2-pre-04261138)",
+        "MD5": "6897C3287FB971C9F362EB3AB20F5DDD",
+        "SHA-256": "DC0FA48951F61C12EAFEDE5E46E248AA86AB86D1E4C28CD880C1D9C348EC44D6"
+    },
+    {
+        "ID": "1.6.1",
+        "Version": "Minecraft 1.6.1",
+        "PVN": "73",
+        "Released": "2013-06-28",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "3C56FB4B77B1CA37DDE69B5EB896FC4D",
+        "SHA-256": "1D8A2945E196DB1226930CA51F20F8DBE2D9578884949C569C5CC8DC5FBDCC53"
+    },
+    {
+        "ID": "1.6.2-080933",
+        "Version": "Minecraft 1.6.2",
+        "PVN": "74",
+        "Released": "#ERROR!",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "349E373456EA2A97FAB42DD9D938E784",
+        "SHA-256": "F2398B2934DFC9267C7ECAC083E08F7222E3C7CC2E94699188F1F85355B3541A"
+    },
+    {
+        "ID": "1.6.2-091847",
+        "Version": "Minecraft 1.6.2",
+        "PVN": "74",
+        "Released": "2013-07-09",
+        "Proof": "Launcher",
+        "Notes": "#ERROR!",
+        "MD5": "1D43CDBA8B9752D7F557AB7D3E365964",
+        "SHA-256": "08406549A47412294923705BF023B1080AE14DA22EC2770D16D920CE420C3092"
+    },
+    {
+        "ID": "1.6.4",
+        "Version": "Minecraft 1.6.4",
+        "PVN": "78",
+        "Released": "2013-09-19",
+        "Proof": "#ERROR!",
+        "Notes": "Only the server was reuploaded.",
+        "MD5": "2E5044F5359E82245551167A237F3167",
+        "SHA-256": "F4513E51C766CDD1D32CA8ACD0835D7E16E2851EBEA3F2A3B4CE5AE696BAF3AE"
+    },
+    {
+        "ID": "1.7.2",
+        "Version": "Minecraft 1.7.2",
+        "PVN": "4",
+        "Released": "2013-10-25",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "7A304554FDEA879A799EFE6EAEDD8C95",
+        "SHA-256": "507FB3660E77AB1A3000424D9B08C61606AE1E5A9BE41CAA3728BDDD9597365F"
+    },
+    {
+        "ID": "1.7.4",
+        "Version": "Minecraft 1.7.4",
+        "PVN": "4",
+        "Released": "2013-12-10",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "F9FFE7E56B26D459560C48E228CC6AD4",
+        "SHA-256": "C51494C52A612648CBCB7EBCDAEDBCB61F6CD287F6215F90113A43136CB62526"
+    },
+    {
+        "ID": "1.7.5",
+        "Version": "Minecraft 1.7.5",
+        "PVN": "4",
+        "Released": "2014-02-26",
+        "Proof": "#ERROR!",
+        "Notes": "Only the server was reuploaded.",
+        "MD5": "02CF75768F19AFE30AB2DA65DBC79CF6",
+        "SHA-256": "5F83B944B59C48EA7FA8F92FEFD491ECB6D1E8D6C9B412FC849F6457C8CEE27B"
+    },
+    {
+        "ID": "1.7.6",
+        "Version": "Minecraft 1.7.6",
+        "PVN": "5",
+        "Released": "2014-04-09",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "1A9C5836A15F7B1CDB28EDB3632F5F2B",
+        "SHA-256": "B1BDE364F26F5FBDF657BB7B2B877C34EAC201AC346C402192DD98B0EF322281"
+    },
+    {
+        "ID": "1.7.7-091529",
+        "Version": "Minecraft 1.7.7",
+        "PVN": "5",
+        "Released": "2014-04-09",
+        "Proof": "#ERROR!",
+        "Notes": "Announcement dates to 1 day before the jar, indicating a reupload.",
+        "MD5": "088506A375D9200E2D935D7DF872366B",
+        "SHA-256": "12B2AC9D55012AB3B619A4C504CCD809FCFE2CF5D2A73ADB0180A585180E213E"
+    },
+    {
+        "ID": "1.7.7-101331",
+        "Version": "Minecraft 1.7.7",
+        "PVN": "5",
+        "Released": "2014-04-10",
+        "Proof": "",
+        "Notes": "",
+        "MD5": "D93597ED300FCCAFC99137AC5D91AF88",
+        "SHA-256": "3E41FD81092A1E9BB7D3D268EBD8C8700B5906065974DC6A962BA8417D57BA73"
+    },
+    {
+        "ID": "1.7.8",
+        "Version": "Minecraft 1.7.8",
+        "PVN": "5",
+        "Released": "2014-04-11",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "BEFDDBE9E0BB5FE85C48AB8A42638953",
+        "SHA-256": "09D06A078AAEDC075682440A5D87D473EE5EBFB35270AA8F085575F133029A31"
+    },
+    {
+        "ID": "1.7.9",
+        "Version": "Minecraft 1.7.9",
+        "PVN": "5",
+        "Released": "2014-04-14",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "5F7CC7EB01CBD935A9973CB6E9C4C10E",
+        "SHA-256": "38F8D799A9B42FB539CA7250E317DD6546910C8AC7718A720C11AAD79780E8D8"
+    },
+    {
+        "ID": "1.7.10",
+        "Version": "Minecraft 1.7.10",
+        "PVN": "5",
+        "Released": "2014-06-26",
+        "Proof": "#ERROR!",
+        "Notes": "#ERROR!",
+        "MD5": "E6B7A531B95D0C172ACB704D1F54D1B3",
+        "SHA-256": "A4FC2284657544E0F4BCC964F927C2FDA3E3A205178ED1D5D58883AAF9780CCE"
+    },
+    {
+        "ID": "1.8",
+        "Version": "Minecraft 1.8",
+        "PVN": "47",
+        "Released": "2014-09-02",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8663A10CECC10EAA683A927EF5371852",
+        "SHA-256": "CCCCD0A92F76FBB24279691DAAD9B67F85D80471A37E59E0DA76D7754982DFE8"
+    },
+    {
+        "ID": "1.8.1",
+        "Version": "Minecraft 1.8.1",
+        "PVN": "47",
+        "Released": "2014-11-24",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "5C9AAF31199F763EF9085CC9B6902B1D",
+        "SHA-256": "66A749AD95ADCB929439155C0341309E89E437444867E108DCB36FD16493B0BD"
+    },
+    {
+        "ID": "1.8.2",
+        "Version": "Minecraft 1.8.2",
+        "PVN": "47",
+        "Released": "2015-02-19",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8F1EF4AC012B6AE6B35A409B4C5440BE",
+        "SHA-256": "5CC5B24312F3D182BF06E7F1A4DA3A05CE94BE6C861D5C9995C86E6D8811FBE9"
+    },
+    {
+        "ID": "1.8.3",
+        "Version": "Minecraft 1.8.3",
+        "PVN": "47",
+        "Released": "2015-02-20",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "9437B48E051B0CE8817C989E59E7994F",
+        "SHA-256": "4DA43D06C8C1605A9A3BA1BF22893245CF1B108EB5C8FED859012252370C2C06"
+    },
+    {
+        "ID": "1.8.4",
+        "Version": "Minecraft 1.8.4",
+        "PVN": "47",
+        "Released": "2015-04-17",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "2A473A72FD9157E87FE224CAC40CFD01",
+        "SHA-256": "D68A3AA5271ABECE4CE2B7048F6CAF4F58071476344D9A52FE9AB1410C5D458B"
+    },
+    {
+        "ID": "1.8.5",
+        "Version": "Minecraft 1.8.5",
+        "PVN": "47",
+        "Released": "2015-05-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "766F5F506D5800483F2B5FD828CC423C",
+        "SHA-256": "2D825073DE0DA4383C0525E81D181EC81F92D17DAA2F0B81FAFF3850492E461D"
+    },
+    {
+        "ID": "1.8.6",
+        "Version": "Minecraft 1.8.6",
+        "PVN": "47",
+        "Released": "2015-05-25",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "80984FF51C89C22D54277E22A4246A24",
+        "SHA-256": "E597384CF964950B02650A39F73C2CBF5CE9E51D934CDFA1291530896E7CF100"
+    },
+    {
+        "ID": "1.8.7",
+        "Version": "Minecraft 1.8.7",
+        "PVN": "47",
+        "Released": "2015-06-05",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "11ED601FB10E39639C7D855545651E45",
+        "SHA-256": "2E45066EC194C6DAEC5F7DBB27822EF0B5855D5829F62392906620145689A3E0"
+    },
+    {
+        "ID": "1.8.8",
+        "Version": "Minecraft 1.8.8",
+        "PVN": "47",
+        "Released": "2015-07-27",
+        "Proof": "#ERROR!",
+        "Notes": "Headache 3, See information sheet. (1.8.8-pre)",
+        "MD5": "6585891791E0D75DC54CFB547A866DB0",
+        "SHA-256": "9481ED51D7FC4BE54EC38C509F84124FBAC5D9FEA238BBDE5B2E6C4F753B1AC8"
+    },
+    {
+        "ID": "1.8.9",
+        "Version": "Minecraft 1.8.9",
+        "PVN": "47",
+        "Released": "2015-12-09",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "396099E23E58309D21713AB5D7C1D1A8",
+        "SHA-256": "14F0D96D1A56FB4F5C3B2233D00699525893FE5CE3DCF181E7DE59120595D298"
+    },
+    {
+        "ID": "1.9",
+        "Version": "Minecraft 1.9",
+        "PVN": "107",
+        "Released": "2016-02-29",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "BE70420233709B3D778F7627DD50DE62",
+        "SHA-256": "0273B5C79D6B96799C6480AE61366D6B1D042655970DE87F77F1A3F1EBEA9307"
+    },
+    {
+        "ID": "1.9.1",
+        "Version": "Minecraft 1.9.1",
+        "PVN": "108",
+        "Released": "2016-03-30",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "A0608984B3D1D9329EAE2A04834FC5B7",
+        "SHA-256": "56AD7E53F6F4AD393844E274AA2190692B61D2AD9F6B3D12B33A8B7332FD51F9"
+    },
+    {
+        "ID": "1.9.2",
+        "Version": "Minecraft 1.9.2",
+        "PVN": "109",
+        "Released": "2016-03-30",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "9B256B5C6D59EA02CDC3063E5B29557C",
+        "SHA-256": "EF87EB71250DF1B871DEAB8D3EF10AAC3290B9E78667AD548FDE4D0E14AF0D65"
+    },
+    {
+        "ID": "1.9.3",
+        "Version": "Minecraft 1.9.3",
+        "PVN": "110",
+        "Released": "2016-05-10",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "E10D98E350B658A3C8338B9BC2F49EA7",
+        "SHA-256": "AB8FDDE789C5B4614FFC98249E04FDCCE7DFCE320B55215BFE5418608AF6A63B"
+    },
+    {
+        "ID": "1.9.4",
+        "Version": "Minecraft 1.9.4",
+        "PVN": "110",
+        "Released": "2016-05-10",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "64BC1BBA39C50DA2CC8D37BC1696540B",
+        "SHA-256": "23E90103A1CA2AC71100004C6D5846DE09F85695F579843EF8DA41571E60C908"
+    },
+    {
+        "ID": "1.10",
+        "Version": "Minecraft 1.10",
+        "PVN": "210",
+        "Released": "2016-06-08",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "752390EE40CDCD6429818CF6EFA25067",
+        "SHA-256": "C00F8170EBF4FD834F552246743A64885A6DFFB3DD1E3A3F3DBA9676B7A0AF35"
+    },
+    {
+        "ID": "1.10.1",
+        "Version": "Minecraft 1.10.1",
+        "PVN": "210",
+        "Released": "2016-06-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "F0C98196E6726B1BB2E04251378F28C3",
+        "SHA-256": "338B205F20C22B9C676D9D3227A5E6C5E190F30AD84D7CAAD035150B3E05BA72"
+    },
+    {
+        "ID": "1.10.2",
+        "Version": "Minecraft 1.10.2",
+        "PVN": "210",
+        "Released": "2016-06-23",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "37F80D266872EC11560AB0895F7CF63B",
+        "SHA-256": "7CDF7FCDC1C92584A233BF3C42BD7F0DF1BDAD3007D306831FE50410692BE1E9"
+    },
+    {
+        "ID": "1.11",
+        "Version": "Minecraft 1.11",
+        "PVN": "315",
+        "Released": "2016-11-14",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "510545771AC1668E422811B23183F5B4",
+        "SHA-256": "F0D11987EA743F55A2C03BF77216E6DC9BAEA7201CC7BF498CEB18043E984634"
+    },
+    {
+        "ID": "1.11.1",
+        "Version": "Minecraft 1.11.1",
+        "PVN": "316",
+        "Released": "2016-12-20",
+        "Proof": "#ERROR!",
+        "Notes": "1.11.1 has a snapshot of the same version number (see the prereleases sheet, 16w50a-1328).",
+        "MD5": "C45718926611A5FE93BE9536D9C54963",
+        "SHA-256": "EFF72A31339CD9A96A61092EED2D95B95E4CC91516BEA4E9105C3D73574147F6"
+    },
+    {
+        "ID": "1.11.2",
+        "Version": "Minecraft 1.11.2",
+        "PVN": "316",
+        "Released": "2016-12-21",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "9DD50A2E6A74F7E186354250C2F2C635",
+        "SHA-256": "BE3FFF4F2CC005A1310A96389EFDEB983D2BCB4B8E747C402ACD616AE73D0BA2"
+    },
+    {
+        "ID": "1.12",
+        "Version": "Minecraft 1.12",
+        "PVN": "335",
+        "Released": "2017-06-02",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "253D74D38E334133E3E9DCA0017A9B5B",
+        "SHA-256": "59E84CF6ACC3912E1705AB05C722485AFB3EC33343EEF4756D8C16EDFE6411CA"
+    },
+    {
+        "ID": "1.12.1",
+        "Version": "Minecraft 1.12.1",
+        "PVN": "338",
+        "Released": "2017-08-03",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "C0C5A6F387727A00DFC6CF8D118EDE75",
+        "SHA-256": "19331FB29BF8B8D5ED764677C94CCA9D66481E10104F660EB555894A4300CF22"
+    },
+    {
+        "ID": "1.12.2",
+        "Version": "Minecraft 1.12.2",
+        "PVN": "340",
+        "Released": "2017-09-18",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8C0443868B9E46C77D39DB61C755679D",
+        "SHA-256": "8ADA07DA5EE77DAD3527BD7278FBD05EE1FC8A597813B216A871A2D7D64CC64F"
+    },
+    {
+        "ID": "1.13",
+        "Version": "Minecraft 1.13",
+        "PVN": "393",
+        "Released": "2018-07-18",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "A4C9224791B89AEEF5E9BAA3E1E2FAAA",
+        "SHA-256": "D807A5ED9428B6C16B64888FD2B7FA76DCF5C55D06F96F7C0C47762C3FC3E26E"
+    },
+    {
+        "ID": "1.13.1",
+        "Version": "Minecraft 1.13.1",
+        "PVN": "401",
+        "Released": "2018-08-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "E1EAA11E2000627F4F8EDD13F2857995",
+        "SHA-256": "F0B4CF6D1A87AE150F87A535651138CA7B82BDAD8853F76E7DDBFF1DD610AC87"
+    },
+    {
+        "ID": "1.13.2",
+        "Version": "Minecraft 1.13.2",
+        "PVN": "404",
+        "Released": "2018-10-22",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "0D20673FC03F9C6A60279146EE1B1A14",
+        "SHA-256": "3410887BA652F25792C7675BFAF9140E73B60E93CFBF113A803F8A98CB05C0F9"
+    },
+    {
+        "ID": "1.14",
+        "Version": "Minecraft 1.14",
+        "PVN": "477",
+        "Released": "2019-04-23",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "77FDC71FC12BDA7ED9A6D14A0325CD4C",
+        "SHA-256": "93907CBF0655AA5F10D049EFA4D745F4250EECC5D0D5D1268046EEC3144F323A"
+    },
+    {
+        "ID": "1.14.1",
+        "Version": "Minecraft 1.14.1",
+        "PVN": "480",
+        "Released": "2019-05-13",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "77885032335152EA06DC704979C910B8",
+        "SHA-256": "7194D1326CF796F62AC55F3CB56F851C232895639AE27510F3207D5A73F91814"
+    },
+    {
+        "ID": "1.14.2",
+        "Version": "Minecraft 1.14.2",
+        "PVN": "485",
+        "Released": "2019-05-27",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "7F528E0A7D8C8C8C27D176A403F87491",
+        "SHA-256": "9B740C9FD4955981125EBD3CD086BAA8B4392963D043A3480B5B942A96637C25"
+    },
+    {
+        "ID": "1.14.3",
+        "Version": "Minecraft 1.14.3",
+        "PVN": "490",
+        "Released": "2019-06-24",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "43648A75FE4364C4C83B19BFE64F00F0",
+        "SHA-256": "4063062677433988E012FBA53E42E4C21ADB6919AC7F061F19F3C6E75B334E07"
+    },
+    {
+        "ID": "1.14.4",
+        "Version": "Minecraft 1.14.4",
+        "PVN": "498",
+        "Released": "2019-07-19",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "5DD255BE377AC11A4414C4BC6426DAA7",
+        "SHA-256": "B3B2A798E2D67B566008FE4A03767AE2C7FF3F8C7BA6751E7B71FC7299672D0A"
+    },
+    {
+        "ID": "1.15",
+        "Version": "Minecraft 1.15",
+        "PVN": "573",
+        "Released": "2019-12-10",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "E9377DA3DF5F358BC42A5B14F7EA3CD7",
+        "SHA-256": "41EEE66B4C8E76C018745A63A46A15097CC1C6482C94B38801054938A010B21B"
+    },
+    {
+        "ID": "1.15.1",
+        "Version": "Minecraft 1.15.1",
+        "PVN": "575",
+        "Released": "2019-12-17",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "8A05BE47822EAC9E94238DA575F7F616",
+        "SHA-256": "6E28ECD008D0CA5E1DCD346DBC2882430F02A77A78864D57ACC49FC8BC1B5358"
+    },
+    {
+        "ID": "1.15.2",
+        "Version": "Minecraft 1.15.2",
+        "PVN": "578",
+        "Released": "2020-01-21",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "1D87E7D75A99172F0CFFC4F96CDC44DA",
+        "SHA-256": "4A73008A73F3824B7C711750A5A37556DF8614F193C0A531E292DAD159A73A7C"
+    },
+    {
+        "ID": "1.16-221349",
+        "Version": "Minecraft 1.16",
+        "PVN": "735",
+        "Released": "2020-06-23",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "B8AF3D806AFDC54D58F25D4624C65286",
+        "SHA-256": "6357393B72249FF00B09D6297008996013A763246F7959CEC121B216C0F3FB20"
+    },
+    {
+        "ID": "1.16-231620",
+        "Version": "Minecraft 1.16",
+        "PVN": "735",
+        "Released": "2020-06-23",
+        "Proof": "#ERROR!",
+        "Notes": "Client was reuploaded to fix some issues with Realms and server was also reuploaded.",
+        "MD5": "2FA065E938B88D7BB19E2917C67C52FD",
+        "SHA-256": "00740EF4475D4CD0A1D7064F89602F759C45FF9AFE29DA9B0EE0B9037EBB2A71"
+    },
+    {
+        "ID": "1.16.1",
+        "Version": "Minecraft 1.16.1",
+        "PVN": "736",
+        "Released": "2020-06-24",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "9B94BEEC05C9580343F663165FA53D3F",
+        "SHA-256": "B4831E7B63B10588FF06EA86322108D916C536446F3AEA3AE988B7FE3E1F66EF"
+    },
+    {
+        "ID": "1.16.2",
+        "Version": "Minecraft 1.16.2",
+        "PVN": "751",
+        "Released": "2020-08-11",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "114F460C5BA72D0DD66A16ED399C0F6D",
+        "SHA-256": "19960F4E3C60F2723F361844D2B4020B8BF2160BD91A1E1EFDE8CE5AEA4FF73D"
+    },
+    {
+        "ID": "1.16.3",
+        "Version": "Minecraft 1.16.3",
+        "PVN": "753",
+        "Released": "2020-09-10",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "1CC30661BBCF8C25A829F34F7FE16DD1",
+        "SHA-256": "DA85197BABD989A7DE318774CF5D97BCEF95E89A70C9FA9A4C8180463E9589FA"
+    },
+    {
+        "ID": "1.16.4",
+        "Version": "Minecraft 1.16.4",
+        "PVN": "754",
+        "Released": "2020-11-02",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "01AC57824D0971864C7C19C7697451F2",
+        "SHA-256": "D6740464EE2BDF37D285C5D368D2E16497492427FB5783E2DB3482BBF0079ED0"
+    },
+    {
+        "ID": "1.16.5",
+        "Version": "Minecraft 1.16.5",
+        "PVN": "754",
+        "Released": "2021-01-15",
+        "Proof": "#ERROR!",
+        "Notes": "",
+        "MD5": "A57B9157FF3BB308208E79EF9E19187E",
+        "SHA-256": "00B5EBBC33E95EA88C1AB80601599C9827E9AA861D93CCC2CFCBBFD996E86263"
+    },
+    {
+        "ID": "1.17",
+        "Version": "Minecraft 1.17",
+        "PVN": "755",
+        "Released": "2021-06-08",
+        "Proof": "Minecraft.net",
+        "Notes": "",
+        "MD5": "D31CD74449FD04C8645D59EC15E885C9",
+        "SHA-256": "14122287D4E4256C2D65EC8C0CCFA3B56448495FA3CCABC87D0F0EEB4FA1C30F"
+    },
+    {
+        "ID": "1.17.1",
+        "Version": "Minecraft 1.17.1",
+        "PVN": "756",
+        "Released": "2021-07-06",
+        "Proof": "Minecraft.net",
+        "Notes": "",
+        "MD5": "AD221960706B909FD0563E43CD79E3D7",
+        "SHA-256": "A49B4A56C5BBE15C9ED9FE53EFA9A591F265A1F5BA7D6AA9739A58EA7A92B79D"
+    },
+    {
+        "ID": "1.18",
+        "Version": "Minecraft 1.18",
+        "PVN": "757",
+        "Released": "2021-11-30",
+        "Proof": "Minecraft.net",
+        "Notes": "",
+        "MD5": "3874F1E0147BDF676F67623EB93EEA06",
+        "SHA-256": "381E090EF22584526113BCCCF26AE38A310A22094D14C2D0DEC72B71FDF65AAA"
+    },
+    {
+        "ID": "1.18.1",
+        "Version": "Minecraft 1.18.1",
+        "PVN": "757",
+        "Released": "2021-12-10",
+        "Proof": "Minecraft.net",
+        "Notes": "",
+        "MD5": "7FACEE43F33C09A9C4C8632AA7C44FCE",
+        "SHA-256": "737C28A56C8980FCD8574465C61538EBDE8F511BDD035C69D0CBE27953F892AA"
+    },
+    {
+        "ID": "1.18.2",
+        "Version": "Minecraft 1.18.2",
+        "PVN": "758",
+        "Released": "2022-02-28",
+        "Proof": "Minecraft.net",
+        "Notes": "",
+        "MD5": "91C8005D6C3E635DBDEF135938200326",
+        "SHA-256": "1D09E3639644B6B2254499469D0765CC005A286D19F3FA595B0ED8FB07971EC7"
     }
 ]

@@ -49,19 +49,19 @@ description: Work in progress.
             <th>Proof</th>
             <th>Notes</th>
             <th>MD5</th>
-            <th>Sha256</th>
+            <th>SHA-256</th>
         </tr>
 
         {% for versions in site.data.java_full %}
         <tr class="{{ versions.status }}">
-            <td>{{ versions.id }}</td>
-            <td>{{ versions.version }}</td>
-            <td>{{ versions.pvn }}</td>
-            <td>{{ versions.released }}</td>
-            <td>{{ versions.proof }}</td>
-            <td>{{ versions.notes }}</td>
-            <td>{{ versions.md5 }}</td>
-            <td>{{ versions.sha256 }}</td>
+            <td>{{ versions.Id }}</td>
+            <td>{{ versions.Version }}</td>
+            <td>{{ versions.PVN }}</td>
+            <td>{{ versions.Released }}</td>
+            <td>{{ versions.Proof }}</td>
+            <td>{{ versions.Notes }}</td>
+            <td>{{ versions.MD5 }}</td>
+            <td>{{ versions.SHA-256 }}</td>
         </tr>
         {% endfor %}
 </body>
