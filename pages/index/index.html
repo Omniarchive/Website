@@ -47,7 +47,7 @@ description: Work in progress.
         </tr>
 
         {% for versions in site.data.java_full %}
-        <tr id="{{ versions.status }}">
+        <tr class="{{ versions.status }}">
             <td>{{ versions.id }}</td>
             <td>{{ versions.version }}</td>
             <td>{{ versions.pvn }}</td>
