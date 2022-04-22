@@ -1,0 +1,32 @@
+---
+layout: base
+permalink: /test/index-proto/
+title: Database prototype
+description: Work in progress.
+---
+
+<h2>Java Edition Index</h2>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Version</th>
+        <th>PVN</th>
+        <th>Released</th>
+        <th>Proof</th>
+        <th>Notes</th>
+        <th>MD5</th>
+        <th>Sha256</th>
+    </tr>
+
+    {% for versions in site.data.java_full %}
+    <tr>
+        <td>{{ versions.id }}</td>
+        <td>{{ versions.version }}</td>
+        <td>{{ versions.pvn }}</td>
+        <td>{{ versions.released }}</td>
+        <td>{{ versions.proof }}</td>
+        <td>{{ versions.notes }}</td>
+        <td>{{ versions.md5 }}</td>
+        <td>{{ versions.sha256 }}</td>
+    </tr>
+    {% endfor %}
