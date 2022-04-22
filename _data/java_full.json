@@ -20,5 +20,27 @@
         "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
         "md5": "70E33A81C541B13A477E68C1207124EB",
         "sha256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
+    },
+    {
+        "id": "test-lost-ver",
+        "status": "lost",
+        "version": "n/a",
+        "pvn": "n/a",
+        "released": "2013-08-06",
+        "proof": "Launcher",
+        "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
+        "md5": "70E33A81C541B13A477E68C1207124EB",
+        "sha256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
+    },
+    {
+        "id": "test-lacks-proof-ver",
+        "status": "lacks",
+        "version": "n/a",
+        "pvn": "n/a",
+        "released": "2013-08-06",
+        "proof": "Launcher",
+        "notes": "The non-launcher version was never publicly released, so it doesn't get an entry here.",
+        "md5": "70E33A81C541B13A477E68C1207124EB",
+        "sha256": "0627A893265FD697FFF165626E000A2640C6A6ECE6B64B75C3AB0194F960ED8B"
     }
 ]

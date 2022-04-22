@@ -4,28 +4,58 @@ title: Database prototype
 description: Work in progress.
 ---
 
-<h2>Java Edition Index</h2>
-<table border="1">
-    <tr>
-        <th>ID</th>
-        <th>Version</th>
-        <th>PVN</th>
-        <th>Released</th>
-        <th>Proof</th>
-        <th>Notes</th>
-        <th>MD5</th>
-        <th>Sha256</th>
-    </tr>
+<head>
+    <style>
+        table {
+            size: 10;
+        }
 
-    {% for versions in site.data.java_full %}
-    <tr>
-        <td>{{ versions.id }}</td>
-        <td>{{ versions.version }}</td>
-        <td>{{ versions.pvn }}</td>
-        <td>{{ versions.released }}</td>
-        <td>{{ versions.proof }}</td>
-        <td>{{ versions.notes }}</td>
-        <td>{{ versions.md5 }}</td>
-        <td>{{ versions.sha256 }}</td>
-    </tr>
-    {% endfor %}
+        th {
+            background-color: black;
+            color: white;
+        }
+
+        .found {
+            background-color: #93C47D;
+            color: black;
+        }
+
+        .lost {
+            background-color: #E06666;
+            color: black;
+        }
+
+        .lacks {
+            background-color: #FFD966;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Java Edition Index</h2>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Version</th>
+            <th>PVN</th>
+            <th>Released</th>
+            <th>Proof</th>
+            <th>Notes</th>
+            <th>MD5</th>
+            <th>Sha256</th>
+        </tr>
+
+        {% for versions in site.data.java_full %}
+        <tr id="{{ versions.status }}">
+            <td>{{ versions.id }}</td>
+            <td>{{ versions.version }}</td>
+            <td>{{ versions.pvn }}</td>
+            <td>{{ versions.released }}</td>
+            <td>{{ versions.proof }}</td>
+            <td>{{ versions.notes }}</td>
+            <td>{{ versions.md5 }}</td>
+            <td>{{ versions.sha256 }}</td>
+        </tr>
+        {% endfor %}
+</body>
