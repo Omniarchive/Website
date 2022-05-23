@@ -14,6 +14,7 @@ title: Dev Test
 
         body {
             font-family: "Noto Sans JP";
+            background-color: rgb(73, 73, 73);
         }
 
         .sidenav {
@@ -26,6 +27,7 @@ title: Dev Test
             width: 15%;
             height: 100%;
             text-align: center;
+            z-index: 98;
         }
 
         .sidenav hr {
@@ -75,36 +77,74 @@ title: Dev Test
             text-decoration: underline;
         }
 
-        .navlogo {
-            width: 40px;
-            height: 40px;
-            background-size: 40px;
-            background-image: url("https://omniarchive.org/files/logo.png");
-            margin: auto;
-        }
-
         .content {
             color: white;
-            background-color: rgb(73, 73, 73);
-            position: fixed;
+            position: relative;
             right: 0;
-            width: 85%;
+            width: 100%;
             height: 100%;
         }
+
         #pagenav {
             color: gray;
             font-size: small;
         }
 
         #wrap {
-            padding-left: 15px;
+            padding-left: 16%;
+        }
+
+        #infobox {
+            float: right;
+            border: 2px solid black;
+            background-color: rgb(99, 99, 99);
+            width: 285px;
+            right: 10;
+            position: relative;
+        }
+
+        #infobox hr {
+            width: 85%;
+        }
+
+        #infbxtitle {
+            text-align: center;
+
+        }
+
+        #infbximage {
+            text-align: center;
+        }
+
+        #infbxcontent {
+            width: 100%;
+        }
+
+        #infbxcntq {
+            padding-left: 5px;
+            max-width: 50%;
+            right: 0;
+        }
+
+        #infbxcnta {
+            padding-right: 5px;
+            text-align: end;
+            max-width: 50%;
+            float: right;
         }
     </style>
+
+    <meta property="og:title" content="Omniarchive Docs - {{ page.title }}" />
+    <meta property="og:description" content="Omniarchive is the largest archive of Minecraft versions." />
+    <meta property="og:site_name" content="omniarchive.org" />
+    <meta property="og:url" content="omniarchive.org" />
+    <meta property="og:image" content="https://omniarchive.org/files/logo.png" />
+
 </head>
 
 <body>
     <div class="sidenav">
-        <img src="https://omniarchive.org/files/logo.png"><br>
+        <img src="https://omniarchive.org/files/logo.png" width="80%" style="max-width: 100px;"><br>
         Omniarchive Docs
         <hr>
         Java Edition<br>
@@ -113,20 +153,131 @@ title: Dev Test
         <hr>
         <footer>(c) Omniarchive team</footer>
     </div>
+
     <div class="topnav">
-        <div class="navlogo">
-        </div>
         <a href="">Home</a>
         <a href="">FAQ</a>
         <a href="">Downloads</a>
         <a href="">Discord</a>
         <a href="">Database</a>
     </div>
+
     <div class="content">
         <div id="wrap"><br>
             <h2>Sample title</h2>
-            <div id= "pagenav">Docs &lt; Java Edition &lt; Sample Page</div><hr>
-            This layout is very early work in progress! There will be some content here.<br>
+            <div id="pagenav">Docs &lt; Java Edition &lt; Sample Page</div>
+            <hr>
+            <div id="infobox">
+                <div id="infbxtitle">Test infobox</div>
+                <hr>
+                <div id="infbximage"><img src="https://omniarchive.org/files/logo.png"></div>
+                <div id="infbxcontent">
+                    <b id="infbxcntq">Edition</b>
+                    <t id="infbxcnta">Java</t><br>
+                    <b id="infbxcntq">Release date</b>
+                    <t id="infbxcnta">16-12-2016</t><br>
+                    <b id="infbxcntq">Client download</b>
+                    <t id="infbxcnta">Link (.json)</t><br>
+                    <b id="infbxcntq">Server download</b>
+                    <t id="infbxcnta">Link</t><br>
+                    <b id="infbxcntq">PVN</b>
+                    <t id="infbxcnta">456</t><br>
+                </div>
+            </div>
+            <p>
+                This layout is very early work in progress! There will be some content here.<br>
+                Meanwhile, have this Lorem Ipsum:</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In sem justo, commodo ut, suscipit at, pharetra
+                vitae, orci. Pellentesque ipsum. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat
+                ante, in pharetra metus odio a lectus. Proin mattis lacinia justo. Donec vitae arcu. In sem justo,
+                commodo ut, suscipit at, pharetra vitae, orci. Nunc tincidunt ante vitae massa. Aliquam erat volutpat.
+                Nullam lectus justo, vulputate eget mollis sed, tempor sed magna. Nulla pulvinar eleifend sem. Aenean
+                fermentum risus id tortor. Integer tempor. Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Pellentesque pretium lectus id turpis. Etiam commodo dui eget wisi.
+                Aenean id metus id velit ullamcorper pulvinar. Curabitur vitae diam non enim vestibulum interdum.
+                Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede
+                sem sit amet enim. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.</p>
+
+            <p>Phasellus rhoncus. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien
+                wisi sed libero. Etiam neque. Aliquam erat volutpat. Vivamus luctus egestas leo. Nam libero tempore, cum
+                soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+                omnis voluptas assumenda est, omnis dolor repellendus. Quis autem vel eum iure reprehenderit qui in ea
+                voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                nulla pariatur? Aenean placerat. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui.
+                Aenean placerat. Pellentesque sapien. Vivamus luctus egestas leo.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam quis quam. Phasellus faucibus molestie
+                nisl. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Nullam dapibus
+                fermentum ipsum. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Curabitur bibendum
+                justo non orci. Maecenas libero. Nullam at arcu a est sollicitudin euismod. Aliquam ante. In convallis.
+                Phasellus rhoncus. Quisque porta. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci.</p>
+
+            <p>Quisque tincidunt scelerisque libero. Nullam sit amet magna in magna gravida vehicula. Duis ante orci,
+                molestie vitae vehicula venenatis, tincidunt ac pede. Aliquam erat volutpat. Temporibus autem quibusdam
+                et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et
+                molestiae non recusandae. Fusce aliquam vestibulum ipsum. Mauris metus. Etiam ligula pede, sagittis
+                quis, interdum ultricies, scelerisque eu. Duis sapien nunc, commodo et, interdum suscipit, sollicitudin
+                et, dolor. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Aenean placerat.
+                Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a
+                lectus. Quisque tincidunt scelerisque libero.</p>
+
+            <p>Nullam faucibus mi quis velit. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Sed ac
+                dolor sit amet purus malesuada congue. Donec vitae arcu. Duis viverra diam non justo. Etiam neque. Morbi
+                scelerisque luctus velit. Etiam egestas wisi a erat. Nulla est. Duis pulvinar. In convallis. Proin
+                mattis lacinia justo. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec
+                bibendum odio risus sit amet ante. In rutrum. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum
+                at dui. Aliquam ante. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et
+                sollicitudin sem purus in lacus.</p>
+
+            <p>Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Nullam at arcu a est sollicitudin
+                euismod. Nullam sit amet magna in magna gravida vehicula. Fusce aliquam vestibulum ipsum. Aenean vel
+                massa quis mauris vehicula lacinia. Nulla pulvinar eleifend sem. Praesent in mauris eu tortor porttitor
+                accumsan. Aliquam erat volutpat. Nullam faucibus mi quis velit. Etiam sapien elit, consequat eget,
+                tristique non, venenatis quis, ante. Pellentesque pretium lectus id turpis. Maecenas ipsum velit,
+                consectetuer eu lobortis ut, dictum at dui. Duis pulvinar. Nullam dapibus fermentum ipsum.</p>
+
+            <p>Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a
+                lectus. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat
+                pede sem sit amet enim. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                laboriosam, nisi ut aliquid ex ea commodi consequatur? In sem justo, commodo ut, suscipit at, pharetra
+                vitae, orci. Nullam eget nisl. Fusce suscipit libero eget elit. Curabitur ligula sapien, pulvinar a
+                vestibulum quis, facilisis vel sapien. Integer vulputate sem a nibh rutrum consequat. Sed convallis
+                magna eu sem. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+                consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nulla non arcu lacinia neque
+                faucibus fringilla. Nulla quis diam. Aenean id metus id velit ullamcorper pulvinar. Maecenas lorem.
+                Vivamus porttitor turpis ac leo.</p>
+
+            <p>Pellentesque ipsum. Duis condimentum augue id magna semper rutrum. Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus mus. Mauris dictum facilisis augue. Integer lacinia. Praesent
+                vitae arcu tempor neque lacinia pretium. Aenean id metus id velit ullamcorper pulvinar. Aliquam id
+                dolor. Etiam neque. Suspendisse nisl. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit.
+                Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Vestibulum erat nulla,
+                ullamcorper nec, rutrum non, nonummy ac, erat. Integer tempor. Nulla turpis magna, cursus sit amet,
+                suscipit a, interdum id, felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Sed vel lectus.
+                Donec odio tempus molestie, porttitor ut, iaculis quis, sem.</p>
+
+            <p>Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Mauris dolor felis, sagittis at, luctus sed,
+                aliquam non, tellus. Proin in tellus sit amet nibh dignissim sagittis. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Quis autem vel eum iure
+                reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum
+                fugiat quo voluptas nulla pariatur? Nulla quis diam. Nulla non lectus sed nisl molestie malesuada.
+                Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Integer in sapien. Duis bibendum,
+                lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Praesent id
+                justo in neque elementum ultrices. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                quasi architecto beatae vitae dicta sunt explicabo. Mauris dolor felis, sagittis at, luctus sed, aliquam
+                non, tellus.</p>
+
+            <p>Nunc tincidunt ante vitae massa. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam
+                ultricies odio, vitae placerat pede sem sit amet enim. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Aenean placerat. Fusce nibh. Et
+                harum quidem rerum facilis est et expedita distinctio. Etiam dui sem, fermentum vitae, sagittis id,
+                malesuada in, quam. Pellentesque sapien. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam.
+                Vestibulum erat nulla, ullamcorper nec, rutrum non, nonummy ac, erat.</p>
         </div>
     </div>
 </body>
