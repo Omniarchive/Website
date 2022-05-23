@@ -1,3 +1,7 @@
+---
+permalink: /dev/
+title: Dev Test
+---
 <!DOCTYPE html>
 <html>
 <!--
@@ -15,9 +19,8 @@
     <title>{{ page.title }} | Omniarchive</title>
     <meta name="viewport" content="width=device-width, initial-scale=0.6">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
-    <!-- <link rel="stylesheet" href="/files/styles.css"> -->
-    <link rel="stylesheet" href="test-styles.css">
-    <link rel="shortcut icon" type="image/png" href="/files/logo.png" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="https://omniarchive.org/files/logo.png" />
 
     <meta property="og:title" content="Omniarchive - {{ page.title }}" />
     {% if page.description %}
@@ -27,7 +30,7 @@
     {% endif %}
     <meta property="og:site_name" content="omniarchive.org" />
     <meta property="og:url" content="omniarchive.org" />
-    <meta property="og:image" content="/files/logo.png" />
+    <meta property="og:image" content="https://omniarchive.org/files/logo.png" />
 </head>
 
 <body>
@@ -43,20 +46,27 @@
 
     <div class="main">
         <div class="pagetitle">
-            <h1>{{ page.title }}</h1>
+            <h1>{{ Dev test }}</h1>
         </div>
 
         <div class="whitecurved">
-            <img src="/files/logo.png"><br>
-
-            {{ content }}
+            <img src="https://omniarchive.org/files/logo.png"><br>
+            <p>
+                {{ This is an IN-DEVelopment version of the Omniarchive website. If you're not supposed to be here,
+                leave immediately! }}<br>
+                <li><b>Test</b></li>
+                <li><em>Text</em></li>
+                <!-- TOOO: These need fixing -->
+                <a href="#" id="buttondownload"><img id="platformLogo" src="windows.svg" width="20px" style="border-radius:0px;">&nbsp;&nbsp;Windows</a><br><br>
+                <a href="#" id="buttondownload"><img id="platformLogo" src="android.svg" width="20px" style="border-radius:0px;">&nbsp;&nbsp;Android</a><br><br>
+            </p>
 
         </div>
         <div class="bottomline"></div>
     </div>
 
     <div class="footer">
-        <p>&copy Omniarchive | Design by <a href="https://dejvoss.cz">DEJVOSS</a></p>
+        <p>&copy Omniarchive | Designed by <a href="https://dejvoss.cz">DEJVOSS</a></p>
     </div>
 
 </body>

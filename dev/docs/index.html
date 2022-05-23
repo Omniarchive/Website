@@ -1,0 +1,123 @@
+---
+permalink: /dev/docs/
+title: Dev Test
+---
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,900" rel="stylesheet" />
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            font-family: "Noto Sans JP";
+        }
+
+        .sidenav {
+            font-size: medium;
+            color: white;
+            background-color: rgb(34, 34, 34);
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 15%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .sidenav hr {
+            width: 85%;
+        }
+
+        .sidenav footer {
+            font-size: small;
+            text-align: center;
+        }
+
+        .topnavold {
+            background-color: rgb(34, 34, 34);
+            color: white;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 85%;
+            height: 10%;
+        }
+
+        .topnav {
+            display: flex;
+            position: fixed;
+            right: 0;
+            top: 0;
+            width: 85%;
+            background-color: rgb(48, 48, 48);
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            z-index: 99;
+        }
+
+        .topnav a:link,
+        .topnav a:active,
+        .topnav a:visited {
+            margin: 0 auto;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .topnav a:hover {
+            text-decoration: underline;
+        }
+
+        .navlogo {
+            width: 40px;
+            height: 40px;
+            background-size: 40px;
+            background-image: url("https://omniarchive.org/files/logo.png");
+            margin: auto;
+        }
+
+        .content {
+            color: white;
+            background-color: rgb(73, 73, 73);
+            position: fixed;
+            right: 0;
+            padding-top: 32px;
+            width: 85%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidenav">
+        <img src="https://omniarchive.org/files/logo.png"><br>
+        Omniarchive Docs
+        <hr>
+        Java Edition<br>
+        Bedrock Edition<br>
+        Other<br>
+        <hr>
+        <footer>(c) Omniarchive team</footer>
+    </div>
+    <div class="topnav">
+        <div class="navlogo">
+        </div>
+        <a href="">Home</a>
+        <a href="">FAQ</a>
+        <a href="">Downloads</a>
+        <a href="">Discord</a>
+        <a href="">Database</a>
+    </div>
+    <div class="content">
+        &nbsp;&nbsp;&nbsp;&nbsp;This layout is very early work in progress! There will be some content here.<br>
+    </div>
+</body>
+
+</html>
