@@ -50,7 +50,17 @@
         <div class="whitecurved">
             <img src="/files/logo.png"><br>
 
-            {{ content }}
+            We're moving domains! If you don't get redirected automatically, please click
+
+
+            {% if page.permalink == "/404" %}
+            <a href="https://omniarchive.uk/">this link</a>.
+            <meta http-equiv="refresh" content="6; URL='https://omniarchive.uk/'" />
+            {% else %}
+            <a href="https://omniarchive.uk{{page.permalink}}">this link</a>.
+            <meta http-equiv="refresh" content="6; URL='https://omniarchive.uk{{page.permalink}}'" />
+            {% endif %}
+            <br>(Or use <a href="https://blog.omniarchive.uk/">this</a> for the Word of Notch archive)
 
         </div>
         <div class="bottomline"></div>
