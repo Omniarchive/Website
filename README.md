@@ -1,5 +1,5 @@
 # Omniarchive.org
-**THIS REPOSITORY IS NOT BEING UPDATED ANYMORE**
+**THIS REPOSITORY IS NOT BEING UPDATED ANYMORE**. The current iteration of our website is not open source. This repository is an archive of the original website.
 
 
 
